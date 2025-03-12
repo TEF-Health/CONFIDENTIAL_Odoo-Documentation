@@ -1,0 +1,39 @@
+# TEF-Health Grant Management Workflow
+
+New to TEF-Health? Visit [tefhealth.eu](https://tefhealth.eu/).
+
+
+## User Roles
+
+Jump to the Documentation of each User Role:
+
+* [Applicant](applicant.md) - Apply for Services at reduced prices.
+* [Service Provider](service-provider.md) - Manage your Service Provisions.
+* [Reviewer](reviewer.md) - Review Applications.
+* [Front Office](front-office.md) - Support for Applications.
+* [Node Lead](node-lead.md) - Participate in Calls.
+* [Funder](funder.md) - Verify co-funding compliance.
+* [Coordinator](coordinator.md) - Coordinate the project.
+
+
+## Permissions
+
+| **Role Permissions**                            | Admin                | Coordinator     | Node Lead      | Front Office<br>Team Lead  | Front Office<br>Agent | Reviewer   | Potential<br>Reviewer | Service<br>Provider| Applicant   | Funder   |
+| :----------------------------------------------:| :----------------:   | :-----------:   | :---------:    | :----------------------:   | :------------------:  | :--------: | :------------------:  | :----------------: | :---------: | :------: |
+| Start a Call                                    |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Grant Roles                                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Invite User                                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Invite User to assume Role                      |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Confirm Service Provision                       |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Assign Front Office Lead                        |       ✅        	 |      ✅      	 |    ✅       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Assign Front Office Agent to Front Office Group |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Assign Front Office Agent to Application        |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| View all Applications                           |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| View all Reviews                                |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Assign Reviewer                                 |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ✅          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |
+| Reject Application                              |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ✅          	 |     ✅     |          ❌          |        ❌          |     ❌      |   ❌     |
+| View own/assigned application                   |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ✅          	 |     ✅     |          ❌          |        ✅          |     ✅      |   ❌     |
+| Edit own/assigned application                   |       ✅        	 |      ❌      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ✅      |   ❌     |
+| Add, remove, edit Services in Service Catalogue |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ✅          |     ❌      |   ❌     |
+| Approve compliance with (national) funding rules|       ✅        	 |      ❌      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ✅     |
+
