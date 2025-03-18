@@ -1,0 +1,38 @@
+site_name: TEF-Health Grant Management
+site_url: http://127.0.0.1:8000
+site_description: "TEF-Health Documentation"
+site_author: "TEF-Health Work Package 1: Petra Ritter, Michael Schirner, Marc Sacks, Leon Martin, Rico Schmitt"
+copyright: "(c) 2025 TEF-Health Consortium"
+nav:
+  - Overview: index.md
+  - Getting Started: 
+    - Creating a User Account: accounts.md
+    - Requesting Permissions: permissions.md
+  - User Documentation:
+    - Helpdesk: helpdesk.md
+    - Applicant: applicant.md
+    - Service Provider: service-provider.md
+    - Reviewer: reviewer.md
+    - Front Office: front-office.md
+    - Node Lead: node-lead.md
+    - Funder: funder.md
+    - Coordinator: coordinator.md
+markdown_extensions:
+  - attr_list
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+theme:
+  name: material
+  logo: img/tefhires3.png
+  favicon: img/tefhires3.png
