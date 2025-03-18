@@ -1,6 +1,6 @@
 # Coordinator Guide
 
-The Coordinator holds the highest level of permissions within the TEF-Health Platform. Its responsibilities include granting user permissions, approving matchmaking, and starting calls.
+The Coordinator holds the highest level of permissions within the TEF-Health Platform. The Coordinator's responsibilities include granting user permissions, approving matchmaking, and starting calls.
 
 ## User Management
 
@@ -20,7 +20,7 @@ Coordinators can invite new users to the platform and directly assign them speci
 2. Enter the user's email address and select the role to be assigned.
 3. Send the invitation; the user will receive an email to confirm and activate their account.
 
-### Assign Front Office Leads
+### Assign Front Office Leads and Groups
 
 Coordinators assign Users the role "Front Office Lead" to facilitate the formation of Front Office Groups.
 
@@ -28,50 +28,51 @@ Coordinators assign Users the role "Front Office Lead" to facilitate the formati
 2. Select the user from
 3. ...
 
+- **Assigning Front Office Roles:**  
+    - Assign Front Office Leads.  
+    - Assign Front Office Agents to groups and applications.  
+
 ## Managing Calls
 
 ### Starting a Call
 
-Coordinators initiate new calls, facilitating the formation of Front Office Groups based on specific attributes.
+Coordinators initiate new calls.
 
 **Required Information to Start a Call:**
 
-- **Opening Date:** When the call becomes active.
-- **Closing Date or Condition:** E.g., target service provisions or total discount volume.
-- **Timelines for Internal Processes:**
+- Opening Date: When the call becomes active.
+- Closing Date or Condition: E.g., target service provisions or total discount volume.
+- Timelines for Internal Processes:
   - Application evaluation timeline.
   - Call updates (e.g., adding nodes and services).
-- **Evaluation Criteria:** Standards for assessing applications.
-- **Participating Country Approval:** Confirmation by Node Leaders upon call draft creation.
-- **Participating Services Approval:** Confirmation by Service Providers after Node Leaders' approval.
+- Evaluation Criteria: Standards for assessing applications.
+- Participating Country Approval: Confirmation by Node Leaders upon call draft creation.
+- Participating Services Approval: Confirmation by Service Providers after Node Leaders' approval.
 
 ### Approving Matchmaking
 
 After reviewers provide scores for an application, the Coordinator confirms the matchmaking, allowing applicants and service providers to commence contract negotiations.
-
-## Service Catalogue Management
-
-Coordinators can manage the Service Catalogue by adding, removing, or editing services to ensure the platform's offerings remain up-to-date and relevant.
-
-## Helpdesk Management
-
-Coordinators oversee the Helpdesk module, ensuring user inquiries and issues are addressed promptly.
-
-**Responsibilities:**
-
-- View all helpdesk tickets.
-- Assign helpdesk agents to tickets.
-- Respond to helpdesk tickets as necessary.
+![Matchmaking](img/coordinator-matchmaking1.png)
+![Matchmaking](img/coordinator-matchmaking2.png)
 
 ## Additional Responsibilities
 
-- **Assigning Front Office Roles:**
-  - Assign Front Office Leads.
-  - Assign Front Office Agents to groups and applications.
-- **Application Oversight:**
-  - View all applications and reviews.
-  - Assign reviewers to applications.
-  - Reject applications if necessary.
+### Service Catalogue Management
 
-*For more details on access rights and user management, refer to the [Odoo documentation](https://www.odoo.com/documentation/18.0/applications/general/users/access_rights.html).*
+Coordinators can veto Service Catalogue updates by Service Providers.
 
+### Helpdesk Management
+
+Coordinators can  
+
+- View all helpdesk tickets,  
+- Assign helpdesk agents to tickets,  
+- Respond to helpdesk tickets as necessary.
+
+### Application Oversight
+
+Coordinators can
+
+- View all applications and reviews.
+- Assign reviewers to applications.
+- Reject applications if necessary.

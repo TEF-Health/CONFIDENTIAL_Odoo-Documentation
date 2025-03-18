@@ -2,7 +2,7 @@
 
 New to TEF-Health? Visit [tefhealth.eu](https://tefhealth.eu/)
 
-## First steps
+## Getting Started
 
 - [Creating a User Account](accounts.md) - Create an account on the TEF-Platform with base permissions
 - [Requesting Higher Roles](permissions.md) - Request permissions higher than the base role
@@ -21,7 +21,7 @@ Jump to the Documentation of each User Role:
 * [Coordinator](coordinator.md) - Coordinate the project
 
 
-## Permissions
+## Permission matrix
 
 | **Role Permissions**                            | Admin                | Coordinator     | Node Lead      | Front Office<br>Team Lead  | Front Office<br>Agent | Reviewer   | Potential<br>Reviewer | Service<br>Provider| Applicant   | Funder   | Helpdesk Agent |
 | :----------------------------------------------:| :----------------:   | :-----------:   | :---------:    | :----------------------:   | :------------------:  | :--------: | :------------------:  | :----------------: | :---------: | :------: |:------------:  |
@@ -45,3 +45,7 @@ Jump to the Documentation of each User Role:
 | Assign Helpdesk Agents to Helpdesk Tickets      |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |  ✅            |
 | Respond to Helpdesk Tickets                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |   ❌     |  ✅            |
 
+
+## Modules
+
+* [Service Catalogue](service-catalogue.md) - TEF-Health Service Catalogue

@@ -8,7 +8,7 @@ nav:
   - Getting Started: 
     - Creating a User Account: accounts.md
     - Requesting Permissions: permissions.md
-  - User Documentation:
+  - User Roles:
     - Helpdesk: helpdesk.md
     - Applicant: applicant.md
     - Service Provider: service-provider.md
@@ -17,6 +17,8 @@ nav:
     - Node Lead: node-lead.md
     - Funder: funder.md
     - Coordinator: coordinator.md
+  - Modules:
+    - Service Catalogue: service-catalogue.md
 markdown_extensions:
   - attr_list
   - tables
