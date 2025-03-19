@@ -1,7 +1,10 @@
 # Service Catalogue Guide
 
 ### Service Catalogue View
-Services can be browsed as a list. 
+The Service Catalogue can be **searched by keywords and filtered by Call, Provider, Category and Country**.
+![Service Catalogue List](img/service-catalogue-kg-cards.png)
+
+Services can also be browsed as a list. 
 ![Service Catalogue List](img/service-catalogue-view-list.png)
 Clicking on a list item opens a card with details of the Service.
 ![Service Catalogue Card](img/service-catalogue-view-card.png)

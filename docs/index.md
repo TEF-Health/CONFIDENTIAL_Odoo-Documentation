@@ -13,7 +13,7 @@ Jump to the Documentation of each User Role:
 
 * [Helpdesk](helpdesk.md) - Get Support
 * [Applicant](applicant.md) - Apply for Services at reduced prices
-* [Service Provider](service-provider.md) - Manage your Service Provisions
+* [Service Provider](service-provider.md) - Manage Service Provisions and Catalogue entries
 * [Reviewer](reviewer.md) - Review Applications
 * [Front Office](front-office.md) - Support for Applications
 * [Node Lead](node-lead.md) - Participate in Calls

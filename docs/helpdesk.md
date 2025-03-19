@@ -5,11 +5,12 @@ Via the **TEF-Health Helpdesk** users open **Support Tickets** and interact with
 ## Accessing the TEF Helpdesk
 To access the Helpdesk, visit 
 [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk)
+![Ticket Submission](img/helpdesk-0.png)
 
-![Ticket Submission](img/helpdesk-1.png)
 
 ## Submitting a Ticket
 1. Navigate to the Helpdesk.  
+   ![Ticket Submission](img/helpdesk-1.png)
 2. Click on **"New"**.  
 3. Fill out the required details:  
     - **Subject** (Brief summary of the issue)  
