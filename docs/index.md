@@ -1,6 +1,9 @@
 # TEF-Health Grant Management Workflow
 
-New to TEF-Health? Visit [tefhealth.eu](https://tefhealth.eu/)
+## New to TEF-Health? 
+
+[Visit tefhealth.eu](https://tefhealth.eu/){: .md-button .md-button--primary target="_blank" }
+
 
 ## Getting Started
 
