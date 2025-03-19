@@ -1,8 +1,10 @@
 # Front Office Guide
 
-The Front Office **handles incoming applications and assigns reviewers**. This guide explains the structure, roles, and workflow of the Front Office team.
+Front Offices **handle incoming applications, assign reviewers and write reports on service provisioning**.
 
 ## Front Office Structure
+
+### National Front Offices
 
 The Front Office is organized into groups based on two characteristics, **Node** and **Call**, forming **National Front Offices**. For example:
 
@@ -12,8 +14,6 @@ The Front Office is organized into groups based on two characteristics, **Node**
 This grouping ensures that each node can manage applications specific to their country (or countries) and the particular call.
 
 National Front Offices consist of **Front Office Leads** and **Front Office Agents**.
-
-## Roles and Responsibilities
 
 ### Front Office Leads
 
@@ -25,6 +25,15 @@ Front Office Leads are assigned by Node Leads. Their primary responsibilities in
   Oversee all applications and reviews within their group.
 - **Receiving Notifications:**  
   Be alerted when new applications are pre-submitted or when an agent declines an assignment due to a conflict of interest.
+  
+Front Office Leads have an overview over their Team.
+![Front Office View](img/front-office-lead-view.png)
+
+To assign Front Office Agents, Leads perform the following steps.
+
+1. ...
+2. ...
+3. ...
 
 
 ### Front Office Agents
@@ -55,6 +64,12 @@ After a notification informs a Front Office Agent about an application assignmen
   If a conflict is detected, decline the assignment immediately.
 - **Reassignment:**  
   The Front Office Lead will reassign the application to another agent.
+  
+
+Front Office Agents can view Applications in a Kanban view, that shows the stage of the Application.
+![Front Office Kanban View](img/front-office-kanban-view.png)
+Alternatively, applications can be viewed as list.  
+![Front Office List View](img/front-office-list-view.png)
 
 !!! warning "Important"
     **Do not proceed with reviewer assignment if a conflict of interest exists.**
