@@ -48,4 +48,8 @@
          <loc>http://127.0.0.1:8000/service-provider/</loc>
          <lastmod>2025-03-19</lastmod>
     </url>
+    <url>
+         <loc>http://127.0.0.1:8000/workflow/</loc>
+         <lastmod>2025-03-19</lastmod>
+    </url>
 </urlset>
