@@ -1,17 +1,17 @@
 # Requesting Higher Roles
 
 This section explains how users can request additional permissions beyond the base **Applicant** role. Users may either self-request a higher role or be invited. In both cases, specific additional information is required, which is then reviewed.
-    
+
 ## Quickstart
-  
-**Odoo Access:**  Access Odoo at [https://tef.charite.de/odoo](https://tef.charite.de/odoo). On the landing page, click the button **Request User Role** and select the needed role.
+
+**Request User Role** at [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request).
 
 !!! info "Invitation for higher roles"
     In certain cases, you may receive invitations to upgrade your role by an authorized user. Follow the steps in the invitation email to assume the higher role.
 
 ## Dependency Diagram (demo to add Leon's mermaid diagrams)
 
-``` mermaid 
+``` mermaid
 %%{init: {'theme': 'neutral'}}%%
 
 graph TD
@@ -40,16 +40,12 @@ graph TD
 
 ## Step by step
 
-### Step 1: **Log into Odoo**  
-   Navigate to [https://tef.charite.de/odoo](https://tef.charite.de/odoo) and log in using your credentials.
+### Step 1: **Log into Odoo**
+   Navigate to [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request) and log in using your credentials.
 
-### Step 2: **Select "Request User Role"**  
-   On the Odoo landing page, click the **Request User Role** button.
-   ![Odoo Landing Page Screenshot](img/request-permission.png)
-
-### Step 3: **Complete the Role Request Form**   
+### Step 2: **Complete the Role Request Form**
    Depending on the higher role you are requesting, you will need to provide the following information.
-   
+
 === "Reviewer"
 	* **Key Expertise:**
 	Select your area(s) of expertise from a predefined choice list. This information helps the Front Office assign you to the appropriate applications.
@@ -67,18 +63,18 @@ graph TD
 === "Service Provider"
 	1. Sed sagittis eleifend rutrum
 	2. Donec vitae suscipit est
-	3. Nulla tempor lobortis orci 
+	3. Nulla tempor lobortis orci
 === "Funder"
 	1. Sed sagittis eleifend rutrum
 	2. Donec vitae suscipit est
-	3. Nulla tempor lobortis orci 
+	3. Nulla tempor lobortis orci
 
 === "Front Desk Agent"
 	1. Sed sagittis eleifend rutrum
 	2. Donec vitae suscipit est
-	3. Nulla tempor lobortis orci		
-   _**Placeholder for Role Request Form Screenshot::**_ 
+	3. Nulla tempor lobortis orci
+   _**Placeholder for Role Request Form Screenshot::**_
    ![Odoo Role Request Form](path/to/role-request-form.png)
-   
-### Step 4: **Wait for approval**   
-   All role requests (self-submitted or via invitation) are reviewed by the Coordinator. Once reviewed, you will be notified whether your request is approved or if further information is required. 
+
+### Step 4: **Wait for approval**
+   All role requests (self-submitted or via invitation) are reviewed by the Coordinator. Once reviewed, you will be notified whether your request is approved or if further information is required.
