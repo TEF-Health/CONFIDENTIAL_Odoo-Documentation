@@ -20,6 +20,9 @@ nav:
     - Coordinator: coordinator.md
   - Modules:
     - Service Catalogue: service-catalogue.md
+  - Technical Documentation:
+    - Deployment: technical-documentation.md
+    - Consent: consents.md
 markdown_extensions:
   - attr_list
   - tables
