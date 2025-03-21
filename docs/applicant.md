@@ -4,7 +4,7 @@ Applicants **create, submit and manage** TEF-Health grant applications.
 
 
 ## Creating a New Application
-1. Navigate to the [Application Portal](https://tef.charite.de/application). Alternatively, log in to Odoo ([https://tef.charite.de/odoo](https://tef.charite.de/odoo)) and click **GO TO TEF APPLICATION**. ![Application Creation](img/application-step1.png)
+1. Navigate to the [Application Portal](https://tef.charite.de/application). Alternatively, log in to Odoo ([https://tef.charite.de/odoo](https://tef.charite.de/odoo)) and click **Matchmaking Request**. ![Application Creation](img/application-step1.png)
 2. A Kanban board opens that indicates the stage of each Application created by the User. Click the button **NEW** to create a new Application. ![Application Creation Step 2](img/application-step2-kanban.png)
 3. A new Application Form opens. Browse through the seven pages of the form to enter all information and save your progress at any time by clicking on **SAVE APPLICATION**. You can return later to continue filling the form before submission.
 ![Application Creation Step 3](img/application-step3-form.png)
