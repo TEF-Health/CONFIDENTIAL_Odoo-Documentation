@@ -1,18 +1,46 @@
 # Coordinator Guide
 
-The Coordinator holds the highest level of permissions within the TEF-Health Platform. The Coordinator's responsibilities include granting user permissions, approving matchmaking, and starting calls.
+The Coordinator **grants user permissions, approves matchmakings, and starts calls**. The Coordinator holds the highest level of permissions within the TEF-Health Platform. 
 
 ## User Management
 
 ### Granting User Permissions and Roles
 
-Users can request higher roles through the Odoo landing page and Coordinator receives a notification. Coordinator confirms or denies the requested user role, ensuring the user has appropriate access to the platform's features.
+When users [request higher roles](permissions.md) the Coordinator receives a notification. The Coordinator confirms or denies the requested user role, ensuring the user has appropriate access to the platform's features.
+
+### Reviewer Management (Onboarding)
+
+1. Upon receiving a **Reviewer Onboarding Notification**, navigate to the **Reviewer Management View** (left-hand menu).
+2. Click on each pending review request item in the list to open its details.
+3. Verify the information and click on **Accept as Reviewer** to add the Reviewer to the Reviewer Database.
+
+![Reviewer Management](img/reviewer-management-1.png)
+
+
+### Reviewer Management (Reviewer Database)
+
+1. Upon onboarding, Reviewers in the Reviewer Database are managed via the Coordinator View button **Reviewers** (top navigation bar).
+![Reviewer Management](img/reviewer-management-2.png)
+2. Clicking on a list entry allows to change the Reviewer status.
+![Reviewer Management](img/reviewer-management-3.png)
+3. Clicking on the small arrow next to *Expertise Assessment* allows to open a view for modifying the expertise.
+![Reviewer Management](img/reviewer-management-4.png)
+
+
+### Front Office Leads and Groups Management
+
+Coordinators assign Users the role "Front Office Lead" to facilitate the formation of Front Office Groups.
+
+- **Assigning Front Office Roles:**  
+    - Assign Front Office Leads.  
+    - Assign Front Office Agents to groups and applications.  
 
 1. Navigate to ...
-2. Select the user to whom you wish to assign a role.
-3. Assign the appropriate role based on the user's responsibilities.
+2. Select the user from
+3. ...
 
-### Inviting Users and Assigning Roles
+
+### User Invitations and Role Assignments
 
 Coordinators can invite new users to the platform and directly assign them specific roles.
 
@@ -20,17 +48,9 @@ Coordinators can invite new users to the platform and directly assign them speci
 2. Enter the user's email address and select the role to be assigned.
 3. Send the invitation; the user will receive an email to confirm and activate their account.
 
-### Assign Front Office Leads and Groups
 
-Coordinators assign Users the role "Front Office Lead" to facilitate the formation of Front Office Groups.
 
-1. Navigate to ...
-2. Select the user from
-3. ...
 
-- **Assigning Front Office Roles:**  
-    - Assign Front Office Leads.  
-    - Assign Front Office Agents to groups and applications.  
 
 ## Managing Calls
 

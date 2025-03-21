@@ -8,25 +8,14 @@ Reviewers **score Applications** based on predefined criteria.
 
 ## Reviewer Onboarding and Permissions
 
-To become a Reviewer, you must first   
+To become a Reviewer, follow the steps outlined under **Getting Started**: 
 
-- [**Create a User Account**](accounts.md) and then  
-- [**Request the Reviewer Role**](permissions.md).
-
-complete the following steps:
-
-1.  **Permission Request:**
-    * Browse to [https://tef.charite.de/access-request](https://tef.charite.de/access-request)
-    * Click on the Access Request button to submit a permission request. 
-    * Provide your key expertise from the provided choice list. This helps Front Office agents assign you to relevant applications.
-2.  **Contractual Agreement:**
-    * Sign the Reviewer Onboarding Form / Universal Expert Contract, including an NDA.
-    * Consent to the Code of Conduct.
-    * Consent to the working arrangements.
-    * Consent to your entry in the TEF-Health Reviewer Database.
+- [**Create a User Account**](accounts.md)  
+- [**Request the Potential Reviewer Role**](permissions.md)
+- [**Complete the Reviewer Onboarding**](permissions.md#reviewer).
 
 !!! note "Onboarding Completion"
-    Only after the contract is signed by a Charité legal representative, you are added to the **Reviewers Database**. While the request is pending, the user will get the Role **Potential Reviewer**.
+    Only after the contract is signed by a Charité legal representative, the user is added to the **Reviewers Database**. While the request is pending, the user will get the role **Potential Reviewer**.
 
 ## Reviewer View
 
