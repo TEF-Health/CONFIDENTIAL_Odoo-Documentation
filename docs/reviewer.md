@@ -8,18 +8,11 @@ Reviewers **score Applications** based on predefined criteria.
 
 ## Reviewer Onboarding and Permissions
 
-To become a Reviewer, you must first   
+To become a Reviewer, please complete the following steps:
 
 - [**Create a User Account**](accounts.md) and then  
-- [**Request the Reviewer Role**](permissions.md).
-
-complete the following steps:
-
-1.  **Permission Request:**
-    * Browse to [https://tef.charite.de/access-request](https://tef.charite.de/access-request)
-    * Click on the Access Request button to submit a permission request. 
-    * Provide your key expertise from the provided choice list. This helps Front Office agents assign you to relevant applications.
-2.  **Contractual Agreement:**
+- [**Fill out the reviewer onboarding form**](https://tef.charite.de/portal/reviewer/onboarding)).
+    * Select your key expertise from the provided choice list. This will help Front Office agents assign you to relevant applications.
     * Sign the Reviewer Onboarding Form / Universal Expert Contract, including an NDA.
     * Consent to the Code of Conduct.
     * Consent to the working arrangements.
