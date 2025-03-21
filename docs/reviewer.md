@@ -1,6 +1,6 @@
 # Reviewer Guide
 
-Reviewers **score Applications** submitted by Applicants based on predefined criteria.
+Reviewers **score Applications** based on predefined criteria.
 
 !!! tip "Key aspect"
     **Note:** Reviewers only assess the quality of the AI solution and its fit to TEF-Health. Eligibility criteria (e.g., to receive State Aid support) need to be confirmed by the Applicant in order to create the Application and are not subject to further review by TEF-Health.
@@ -8,7 +8,12 @@ Reviewers **score Applications** submitted by Applicants based on predefined cri
 
 ## Reviewer Onboarding and Permissions
 
-To become a reviewer, you must first complete the following steps:
+To become a Reviewer, you must first   
+
+- [**Create a User Account**](accounts.md) and then  
+- [**Request the Reviewer Role**](permissions.md).
+
+complete the following steps:
 
 1.  **Permission Request:**
     * Browse to [https://tef.charite.de/access-request](https://tef.charite.de/access-request)
@@ -21,7 +26,7 @@ To become a reviewer, you must first complete the following steps:
     * Consent to your entry in the TEF-Health Reviewer Database.
 
 !!! note "Onboarding Completion"
-    Only after the contract is signed by a Charité legal representative, you are added to the "Reviewers Database". While the request is pending, the user will get the Role "Potential Reviewer."
+    Only after the contract is signed by a Charité legal representative, you are added to the **Reviewers Database**. While the request is pending, the user will get the Role **Potential Reviewer**.
 
 ## Reviewer View
 
@@ -36,7 +41,7 @@ The Reviewer View is divided into three main dashboards accessible via the left-
     ![Discuss](img/reviewer-view-2.png)
 
 === "Helpdesk"
-    Access to the [Helpdesk](helpdesk.md) 
+    Access to the [Helpdesk](helpdesk.md) .
     ![Helpdesk](img/reviewer-view-3.png)
 
 ## Review Process
@@ -45,31 +50,29 @@ The Reviewer View is divided into three main dashboards accessible via the left-
 
 Reviewers are assigned Applications by Front Office Agents and kept informed through a series of notifications:
 
-- **Assignment Notification:**  
-  When assigned to a new Application by a Front Office Agent.
-  
-- **Pending Review Reminder:**  
-  Alerts for pending reviews.
-  
-- **Deadline Approaching:**  
-  Notifications when the review deadline is near.
-  
-- **Deadline Passed:**  
-  Follow-up alerts if the review is overdue.
+| **Notification**             | **Event**                                                   |
+|------------------------------|-------------------------------------------------------------|
+| **Assignment Notification** | When assigned to a new Application by a Front Office Agent. |
+| **Pending Review Reminder** | Alerts for pending reviews.                                 |
+| **Deadline Approaching**    | Notifications when the review deadline is near.             |
+| **Deadline Passed**         | Follow-up alerts if the review is overdue.                  |
 
-These notifications appear in the top-right header panel of the platform and are also sent via email.
+These notifications appear in the top-right header panel of the platform and are also sent via email to the Reviewer.
 
-![Notification Placeholder](img/reviewer-workflow-1-notification.png)
+![Notifications](img/reviewer-workflow-1-notification.png)
 
 
 ### Access Review
 
-There are four ways for a Reviewer to access a **Review Form**:
+There are four ways for a Reviewer to access an assigned **Review Form**:
 
-1. Click on the **Access Review** button from the Notification email in your email client.
-2. Click on the **Access Review** button of that email in the Discuss module (left-hand menu).
-3. Click on the Notification **Speech Bubble** Icon (top-right header panel).
-4. Click on the Review Form in the **TEF-Review Dashboard** (left-hand menu)
+| **Location**                | **Link to Review Form**                         |
+|-----------------------------|-------------------------------------------------|
+| Reviewer   email inbox      | **Access Review** button                        |
+| Reviewer   Discuss module   | **Access Review** button                        |
+| Reviewer View               | **Speech Bubble** Icon (top-right header panel) |
+| Review Form                 | **TEF-Review Dashboard** (left-hand menu)       |
+
 
 
 ### Review and Score
@@ -87,55 +90,24 @@ There are four ways for a Reviewer to access a **Review Form**:
 
 Reviewers can use buttons and checkboxes to manage the Application:
 
-- **Save Review**: to save progress and complete the review later.
-- **Retract Review**: to post-hoc retract a review that has been submitted to the Front Office.
-- **Conflict of Interest**: A dedicated button allows you to declare a conflict of interest, which aborts the review at any time and notifies the Front Office Agent. A final checkbox confirms that no conflicts of interest emerged during the course of the Review.
-- **Return Review**: becomes clickable only when all required fields are completed.
+| **Button / Checkbox**    | **Function**                                                                                                                                                                         |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Save Review**          | To save progress and complete the review later.                                                                                                                                      |
+| **Retract Review**       | To post-hoc retract a review that has been submitted to the Front Office.                                                                                                            |
+| **Conflict of Interest** | Declare a conflict of interest, abort the review and notify the Front Office Agent. A final checkbox confirms that no conflicts of interest emerged during the course of the Review. |
+| **Return Review**        | Becomes clickable only when all required fields are completed.                                                                                                                       |
+
+Once the review is completed:
+
+- **Review Submission:**
+    - Ensure all fields are completed; only then does the **Return Review** button activate.
+    - Submit your review to be recorded in the TEF-Health system.
+
+- **Post-Review Process:**
+    - After two reviews have been submitted and if the standard deviation of scores is below 4, the relevant Service Provider(s) are automatically notified of the Service Provision Request. 
+    - In case the Standard Deviation of both reviews is larger than 4, indicating a mismatch between the two reviews, a third reviewer will be invited to resolve the ambiguity.
 
 
-
-
-
-
-
-
-
-
----
-
-## Scoring Criteria
-
-Reviewers evaluate Applications based on several key areas:
-
-- **Solution Description:**  
-  Evaluate the novelty, innovation, and advancement beyond the state of the art.
-  
-- **TEF-Health Needs:**  
-  Assess how well the solution addresses unmet medical needs and aligns with service offerings.
-  
-- **Funding and Financial:**  
-  Review the budget estimates, financial track record, and capacity to cover service expenses.
-  
-- **Additional Quality Metrics:**
-  
-  | **Criterion**                                                                                                             | **Description**                                                                                                                                                      |
-  |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | **Innovation & Novelty**                                                                                                  | "The applicant presents a novel solution that is innovative and promotes clear advancement beyond the current state of the art."                                      |
-  | **Timeline Feasibility**                                                                                                  | "The applicant presents a clear and feasible timeline for the solution."                                                                                            |
-  | **Unmet Medical Need**                                                                                                    | "The solution addresses a significant unmet medical need."                                                                                                         |
-  | **Alignment with Service Offerings**                                                                                      | "The applicant needs align with the service offerings provided in the current Call."                                                                                 |
-  | **Market Expansion Potential**                                                                                            | "Service offerings in the current Call will actively facilitate and support expansion of the company to new EU markets."                                                 |
-  | **Technology Readiness (TRL) Impact**                                                                                     | "The solution is able to increase TRL after implementation of TEF-Health Services within 6 months."                                                                    |
-  | **Financial Soundness**                                                                                                   | "The applicant provides a budget estimate that aligns with the current Call's service offerings and demonstrates a solid financial track record."                  |
-
-- **Scoring Methodology:**
-  - Scores for each criterion range from **1 to 7 (excluding 4)**.
-  - The final score is computed as a **weighted average** of all individual criterion scores.
-  
-!!! info "Scoring Insight"
-    Detailed scoring criteria and weights ensure objective evaluation while allowing flexibility for Reviewer judgment.
-
----
 
 ## Conflict of Interest Management
 
@@ -148,63 +120,19 @@ To maintain integrity, Reviewers must manage conflicts of interest proactively:
   Use the **Declare Conflict of Interest** button to abort the review. This action notifies the Front Office Agent.
 
 - **Final Declaration:**  
-  Before submission, confirm via a checkbox that no conflict of interest exists.
+  Before submission, confirm via a checkbox that no conflict of interest became apparent during review.
 
 !!! warning "Conflict of Interest"
     Declaring a conflict of interest is mandatory if any bias is identified. This measure protects both the review process and the Applicant's integrity.
 
----
 
-## Communication via Chatter
+## Communication
 
-Communication with Applicants is strictly managed:
+Communication between Reviewers and Front Office Agents to address queries regarding review assignments or technical issues can be performed in two ways:
 
-- **Chatter Module:**
-  - Located at the bottom of each review record.
-  - Enables communication exclusively with Front Office Agents, not directly with Applicants.
+- **Chatter**  
+    - Located at the bottom of each review record.  
+    - Enables direct communication with the Front Office Agents that assigned the Reviewer to the Application.  
   
-- **Purpose:**
-  - Clarify review details.
-  - Address queries regarding review assignments or technical issues.
-
-*Placeholder for Chatter module screenshot.*
-
----
-
-## Final Submission and Post-Review Workflow
-
-Once the review is completed:
-
-- **Review Submission:**
-  - Ensure all fields are completed; only then does the **Return Review** button activate.
-  - Submit your review to be recorded in the TEF-Health system.
-
-- **Post-Review Process:**
-  - After two reviews have been submitted and if the standard deviation of scores is below 4, the relevant Service Provider(s) are automatically notified of the Service Provision Request.
-  
-!!! tip "Timely Submission"
-    Early and complete review submissions help maintain workflow efficiency and ensure timely notifications to Service Providers.
-
----
-
-## Additional Notes
-
-- **Progress Saving:**  
-  You can save your review at any point and resume later.
-  
-- **User Interface Enhancements:**
-  - **Interactive Tooltips:** Hover over elements for more information.
-  - **Responsive Tables and Kanban Views:** Quickly access and manage your assigned Applications.
-  
-- **Help & Support:**  
-  For any issues or further assistance, please refer to the Helpdesk module or contact the support team.
-
----
-
-## Conclusion
-
-This documentation serves as your guide to efficiently navigate and utilize the Reviewer View of the TEF-Health Grant Management system. By following these processes and leveraging the platform’s interactive features, you can contribute effectively to the evaluation process while ensuring compliance with all contractual and regulatory requirements.
-
-For further assistance, visit our [Helpdesk](#) or reach out to the Front Office team.
-
-*Generated with Material MkDocs Markdown features for a seamless user experience.*
+- **Discuss** 
+    - The entire communication history including email notifications and message history can also be accessed and replied to via the Discuss Module (left-hand menu).
