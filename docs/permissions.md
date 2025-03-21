@@ -8,7 +8,7 @@ Users can request **additional permissions** beyond the base Applicant role. Use
 ## Step by step
 
 ### Step 1: **Open Access Request Form**  
-   Navigate to [https://tef.charite.de/odoo](https://tef.charite.de/odoo) and log in using your credentials. On the Odoo landing page, click the **Request User Role** button.
+   Navigate to via the TEF-Health Portal [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request) and, if not yet logged in, log in using your credentials. On the Odoo landing page, click the **Request User Role** button.
    ![Odoo Landing Page Screenshot](img/request-permission.png)
    Alternatively, directly browse to [https://tef.charite.de/access-request](https://tef.charite.de/access-request) to open the Access Request Form.
    

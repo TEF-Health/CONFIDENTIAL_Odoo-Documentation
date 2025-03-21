@@ -8,7 +8,7 @@ This section explains how to obtain an account on the TEF-Health Platform [tefhe
   Register a TEF-Health account at [https://tef.charite.de/registration](https://tef.charite.de/registration)
 
 - **Default Role:**  
-  All new users receive the base role **"Applicant"** upon account creation. [Higher roles can be requested](permissions.md) on the Grant Management Platform landing page [https://tef.charite.de/odoo](https://tef.charite.de/odoo)
+  All new users receive the base role **"Applicant"** upon account creation. [Higher roles can be requested](permissions.md) via the TEF-Health Portal [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request)
   
 !!! info "Invitation to create account"
     New users can also be created by invitation. In this case an invitation email is sent to the prospective user. The email prompts them to reset their password. Follow the instructions to complete the password reset and activate the account.
