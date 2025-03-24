@@ -22,6 +22,9 @@ This section explains how to obtain an account on the TEF-Health Platform [tefhe
 
 ### Step 1: Access the Registration Portal
 - Open your web browser and navigate to the [TEF-Health Registration Page](https://tef.charite.de/registration). TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created.
+- On the login page, click on "**Register**"
+
+![Registration Keycloak](img/registration-keycloak.png)
 
 ### Step 2: Complete the Registration Form
 You will be asked to provide the following information:  
@@ -33,13 +36,19 @@ You will be asked to provide the following information:
 - **Consent to Privacy Policy:** *Read the [Privacy Policy](https://tefhealth.eu/privacy-policy) and check the box to indicate your consent.*  
 - **Consent to Email Marketing/Newsletters:** *Check the box if you wish to receive marketing emails or newsletters.*  
 
+![Registration Keycloak 2](img/registration-keycloak-2.png)
+
 ### Step 3: E-Mail Verification
 After submitting the form, you will receive a verification email. Follow the instructions in the email to verify your email address. 
 
 ### Step 4: Logging into the TEF-Health Grant Management System
-Upon successful registration and email verification, a user account is automatically created using your TEF-Health platform details.   
+- Upon successful registration and email verification, a user account is automatically created using your TEF-Health platform details.   
    
-You can now **log into the TEF-Health Grant Management System at [https://tef.charite.de/odoo](https://tef.charite.de/odoo)**
+- You can now **log into the TEF-Health Grant Management System at [https://tef.charite.de/odoo](https://tef.charite.de/odoo)**
+
+- On the Odoo Login Page, click on "**Login with Keycloak**"
+
+![Registration Keycloak 3](img/registration-keycloak-3.png)
   
 
 ### (Optional) Step 5: Requesting additional permissions

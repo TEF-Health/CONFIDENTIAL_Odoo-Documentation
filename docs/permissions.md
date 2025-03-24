@@ -29,19 +29,20 @@ Depending on the role you are requesting, you will need to perform the following
     
     ![Reviewer onboarding](img/reviewer-onboarding.png)
 === "Service Provider"
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
+    To request this role, provide the following information  
+    1. TEF Node  
+    2. Organization  
+    ![Other Role onboarding](img/permissions-1.png)
 === "Funder"
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
+    To request this role, provide the following information  
+    1. TEF Node  
+    2. Organization 
+    ![Other Role onboarding](img/permissions-1.png) 
 === "Front Desk Agent"
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci	
-
-
+    To request this role, provide the following information  
+    1. TEF Node  
+    2. Organization	  
+    ![Other Role onboarding](img/permissions-1.png)
    
 ### Step 3: **Wait for approval**   
    All role requests (self-submitted or via invitation) are reviewed by the Coordinator. Once reviewed, you will be notified whether your request is approved or if further information is required. 
