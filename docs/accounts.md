@@ -5,7 +5,7 @@ This section explains how to obtain an account on the TEF-Health Platform [tefhe
 ## Quickstart
 
 - **Registration:**  
-  Register a TEF-Health account at [https://tef.charite.de/registration](https://tef.charite.de/registration)
+  Register a TEF-Health account at [https://tef.charite.de/register](https://tef.charite.de/register)
 
 - **Default Role:**  
   All new users receive the base role **"Applicant"** upon account creation. 
@@ -21,7 +21,7 @@ This section explains how to obtain an account on the TEF-Health Platform [tefhe
 ## Step by step
 
 ### Step 1: Access the Registration Portal
-- Open your web browser and navigate to the [TEF-Health Registration Page](https://tef.charite.de/registration). TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created.
+- Open your web browser and navigate to the [TEF-Health Registration Page](https://tef.charite.de/register). TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created.
 - On the login page, click on "**Register**"
 
 ![Registration Keycloak](img/registration-keycloak.png)

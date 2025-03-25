@@ -26,7 +26,7 @@
     
     
       
-        <title>Service Provider - TEF-Health Grant Management</title>
+        <title>Service Provider - TEF-Health Call Management</title>
       
     
     
@@ -84,7 +84,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="TEF-Health Grant Management" class="md-header__button md-logo" aria-label="TEF-Health Grant Management" data-md-component="logo">
+    <a href=".." title="TEF-Health Call Management" class="md-header__button md-logo" aria-label="TEF-Health Call Management" data-md-component="logo">
       
   <img src="../img/tefhires3.png" alt="logo">
 
@@ -97,7 +97,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            TEF-Health Grant Management
+            TEF-Health Call Management
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -178,12 +178,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="TEF-Health Grant Management" class="md-nav__button md-logo" aria-label="TEF-Health Grant Management" data-md-component="logo">
+    <a href=".." title="TEF-Health Call Management" class="md-nav__button md-logo" aria-label="TEF-Health Call Management" data-md-component="logo">
       
   <img src="../img/tefhires3.png" alt="logo">
 
     </a>
-    TEF-Health Grant Management
+    TEF-Health Call Management
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -455,29 +455,53 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#service-catalogue-management" class="md-nav__link">
+  <a href="#service-provider-dashboard" class="md-nav__link">
     <span class="md-ellipsis">
-      Service Catalogue Management
+      Service Provider Dashboard
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Service Provider Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#service-offering-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Offering Management
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#application-review-ranking" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#call-participation-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Application Review &amp; Ranking
+      Call Participation Management
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#contract-negotiations" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#service-request-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Contract Negotiations
+      Service Request Management
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-provision-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Provision Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -773,29 +797,53 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#service-catalogue-management" class="md-nav__link">
+  <a href="#service-provider-dashboard" class="md-nav__link">
     <span class="md-ellipsis">
-      Service Catalogue Management
+      Service Provider Dashboard
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Service Provider Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#service-offering-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Offering Management
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#application-review-ranking" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#call-participation-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Application Review &amp; Ranking
+      Call Participation Management
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#contract-negotiations" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#service-request-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Contract Negotiations
+      Service Request Management
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-provision-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Provision Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -831,6 +879,7 @@
 <ul>
 <li><strong>Service Providers</strong> offer services to SMEs via the <strong>Service Catalogue</strong>.</li>
 <li>SMEs apply for discounts using the <strong>Applicant</strong> role.</li>
+<li>Service Providers must agree to offer their Services in particular TEF-Health Calls.</li>
 <li><strong>Reviewers</strong> evaluate each application and provide a score.</li>
 <li>Once approved by the <strong>Coordinator</strong>, Service Providers initiate contracting by creating an <strong>Offer</strong>.</li>
 <li>A <strong>Chatter</strong> interface enables contract negotiation and communication.</li>
@@ -838,47 +887,28 @@
 <li>Compliance with State Aid, eligibility criteria, and legal regulations is enforced through comprehensive documentation and record-keeping.</li>
 </ul>
 </div>
-<h2 id="service-catalogue-management">Service Catalogue Management</h2>
-<p>Service Providers and Coordinators can manage the Service Catalogue with powerful tools:</p>
-<ul>
-<li><strong>Add, Remove, or Edit Services:</strong> Maintain up-to-date offerings.</li>
-<li><strong>Search &amp; Filter:</strong> Quickly locate specific services.</li>
-<li><strong>Export/Import:</strong> Seamlessly handle the Catalogue via web interface.</li>
-<li><strong>Call Participation:</strong> Indicate service involvement in Calls via a dedicated Checkbox (validated by the corresponding Node Lead).</li>
-</ul>
-<h2 id="application-review-ranking">Application Review &amp; Ranking</h2>
-<p>Service Providers are presented with an overview of all reviewed applications for their services:</p>
-<ul>
-<li><strong>Ranked Applications:</strong> Applications are sorted by Score for quick reference.</li>
-<li><strong>Flexible Selection:</strong> Despite the ranking, Service Providers may choose to negotiate based on other factors.</li>
-<li><strong>Overview Dashboard:</strong> Access an intuitive dashboard displaying key application details and Scores.</li>
-</ul>
-<div class="admonition tip">
-<p class="admonition-title">Quick Insight</p>
-<p>Hover over any Score to see additional details and tooltips explaining the ranking methodology.</p>
-</div>
-<h2 id="contract-negotiations">Contract Negotiations</h2>
-<p>Once an application is selected:</p>
-<ol>
-<li>
-<p><strong>Match Initiation:</strong><br />
-   Accepting an application creates a <strong>Contact Card</strong> to start communication between the Service Provider and the Applicant.</p>
-</li>
-<li>
-<p><strong>Chatter Interface:</strong><br />
-   Use the integrated Chatter for real-time negotiation, ensuring both parties can discuss terms and clarify details.</p>
-</li>
-<li>
-<p><strong>Offer Creation:</strong><br />
-   Initiate contract negotiations by creating an Offer which includes the following contract parameters:
-   === "Contract Parameters"</p>
-<ul>
-<li><strong>Full Price</strong></li>
-<li><strong>Reduced Price</strong></li>
-<li><strong>Project/Funding Reference Number</strong></li>
-</ul>
-</li>
-</ol>
+<h2 id="service-provider-dashboard">Service Provider Dashboard</h2>
+<p>The Service Provider Dashboard can be accessed via the URL <a href="https://tef.charite.de/portal/service_management">https://tef.charite.de/portal/service_management</a> or by clicking on the corresponding item in the left-hand menu. Via the Dashboard Service Providers can manage <a href="#service-offering-management">Service Offerings</a>, <a href="#call-participation">Call Participation</a> <a href="#service-request-management">Service Requests</a> and <a href="#service-provision-management">Service Provisions</a>.</p>
+<p><img alt="Service Provider Dashboard" src="../img/service-provider-dashboard.png" /></p>
+<h3 id="service-offering-management">Service Offering Management</h3>
+<p>By clicking on <strong>My Services</strong> on the Service Provider Dashboard, Service Providers can <strong>View</strong> and <strong>Edit</strong> their Service Offerings. Click on the button <strong>View</strong> next to a list entry to view details. 
+<img alt="Service Offering Management 1" src="../img/service-provider-offerings-1.png" />
+Click on the button <strong>Edit</strong> in the opening window to change details of the offering.
+<img alt="Service Offering Management 1" src="../img/service-provider-offerings-2.png" /></p>
+<h3 id="call-participation-management">Call Participation Management</h3>
+<blockquote>
+<p>TODO: Service Providers indicate participation of each of their Offerings in a TEF-Health Call via dedicated Checkboxes. Service Providers receive a Notification to indicate participation when a new Call is prepared. </p>
+</blockquote>
+<h3 id="service-request-management">Service Request Management</h3>
+<p>By clicking on <strong>Go to Service Requests</strong> on the Service Provider Dashboard, Service Providers are presented with an overview of all reviewed applications for their services. Applications are sorted by the Reviewer Score for quick reference.Despite the ranking, Service Providers may choose to negotiate based on other factors. </p>
+<p><img alt="Service Requests" src="../img/service-provider-requests.png" /></p>
+<p>By clicking on the button <strong>View</strong> next to an Application, Service Providers can access the application details. On the opening card Service Providers can evaluate the application details and confirm a match by clicking the button <strong>Accept Request and Proceed with Contracting</strong>.</p>
+<p><img alt="Service Requests" src="../img/service-provider-requests-2.png" /></p>
+<h3 id="service-provision-management">Service Provision Management</h3>
+<p>Once a request was accepted, a new Service Provision Record is created and can be accessed from the Service Provider Dashboard via the button <strong>Go to Accepted Requests</strong>.</p>
+<p><img alt="Accepted Service Requests" src="../img/service-provider-matches-1.png" /></p>
+<p>By clicking on <strong>View Details</strong> the Service Provision Record opens, which contains a Chatter to start communication between the Service Provider and the Applicant and for contract negotiation, ensuring both parties can discuss terms and clarify details such as Full and Reduced Prices. Via buttons, the contract documents are downloaded, locally signed, and then uploaded again.</p>
+<p><img alt="Accepted Service Requests" src="../img/service-provider-matches-2.png" /></p>
 <div class="admonition warning">
 <p class="admonition-title">State Aid Compliance</p>
 <p>Service Providers must ensure that any discount negotiated complies with State Aid laws and all relevant national and regional regulations.</p>
@@ -897,11 +927,11 @@
 <li>
 <p><strong>Invoice Specifications:</strong><br />
   Every invoice must clearly state:</p>
-</li>
+<ul>
 <li><strong>Full Price</strong></li>
 <li><strong>Reduced Price</strong></li>
-<li>
-<p><strong>Name of the Project/Funding Reference Number</strong></p>
+<li><strong>Name of the Project/Funding Reference Number</strong></li>
+</ul>
 </li>
 <li>
 <p><strong>TRL Evidence:</strong><br />

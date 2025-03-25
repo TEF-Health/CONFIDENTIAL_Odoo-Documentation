@@ -1,14 +1,26 @@
-# TEF-Health Grant Management Workflow
+# TEF-Health Call Management Workflow
 
 ## New to TEF-Health? 
 
 [Visit tefhealth.eu](https://tefhealth.eu/){: .md-button .md-button--primary target="_blank" }
 
-
-## Getting Started
+## Getting Access
 
 - [Creating a User Account](accounts.md) - Create an account on the TEF-Platform with base permissions
 - [Requesting Higher Roles](permissions.md) - Request permissions higher than the base role
+
+## Accessing the TEF-Health Call Management Portal
+
+The **Call Management Portal** can be accessed in two ways, via the **TEF-Health Portal Landing Page** or by directly browsing to the **Call Management Landing Page**.
+
+### TEF-Health Portal Landing Page
+Browse to [https://tef.charite.de](https://tef.charite.de) and click on **Call Management**.
+![TEF-Health Portal Landing Page](img/portal-landing-page.png)
+
+### Call Management Landing Page
+Browse to [https://tef.charite.de/odoo](https://tef.charite.de/odoo) and click on **Login with Keycloak** and enter your account credentials.
+![Call Management Login Page](img/call-management-login.png)
+
 
 ## User Roles
 

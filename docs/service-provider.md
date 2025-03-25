@@ -5,6 +5,7 @@ Service Providers **manage** their services, **review and negotiate applications
 !!! tip "Key Aspects"
     - **Service Providers** offer services to SMEs via the **Service Catalogue**.
     - SMEs apply for discounts using the **Applicant** role.
+    - Service Providers must agree to offer their Services in particular TEF-Health Calls.
     - **Reviewers** evaluate each application and provide a score.
     - Once approved by the **Coordinator**, Service Providers initiate contracting by creating an **Offer**.
     - A **Chatter** interface enables contract negotiation and communication.
@@ -12,46 +13,45 @@ Service Providers **manage** their services, **review and negotiate applications
     - Compliance with State Aid, eligibility criteria, and legal regulations is enforced through comprehensive documentation and record-keeping.
 
 
-## Service Catalogue Management
+## Service Provider Dashboard
+The Service Provider Dashboard can be accessed via the URL [https://tef.charite.de/portal/service_management](https://tef.charite.de/portal/service_management) or by clicking on the corresponding item in the left-hand menu. Via the Dashboard Service Providers can manage [Service Offerings](#service-offering-management), [Call Participation](#call-participation) [Service Requests](#service-request-management) and [Service Provisions](#service-provision-management).
 
-Service Providers and Coordinators can manage the Service Catalogue with powerful tools:
-
-- **Add, Remove, or Edit Services:** Maintain up-to-date offerings.
-- **Search & Filter:** Quickly locate specific services.
-- **Export/Import:** Seamlessly handle the Catalogue via web interface.
-- **Call Participation:** Indicate service involvement in Calls via a dedicated Checkbox (validated by the corresponding Node Lead).
+![Service Provider Dashboard](img/service-provider-dashboard.png)
 
 
+### Service Offering Management
 
-## Application Review & Ranking
-
-Service Providers are presented with an overview of all reviewed applications for their services:
-
-- **Ranked Applications:** Applications are sorted by Score for quick reference.
-- **Flexible Selection:** Despite the ranking, Service Providers may choose to negotiate based on other factors.
-- **Overview Dashboard:** Access an intuitive dashboard displaying key application details and Scores.
-
-!!! tip "Quick Insight"
-    Hover over any Score to see additional details and tooltips explaining the ranking methodology.
+By clicking on **My Services** on the Service Provider Dashboard, Service Providers can **View** and **Edit** their Service Offerings. Click on the button **View** next to a list entry to view details. 
+![Service Offering Management 1](img/service-provider-offerings-1.png)
+Click on the button **Edit** in the opening window to change details of the offering.
+![Service Offering Management 1](img/service-provider-offerings-2.png)
 
 
+### Call Participation Management
 
-## Contract Negotiations
 
-Once an application is selected:
+> TODO: Service Providers indicate participation of each of their Offerings in a TEF-Health Call via dedicated Checkboxes. Service Providers receive a Notification to indicate participation when a new Call is prepared. 
 
-1. **Match Initiation:**  
-   Accepting an application creates a **Contact Card** to start communication between the Service Provider and the Applicant.
 
-2. **Chatter Interface:**  
-   Use the integrated Chatter for real-time negotiation, ensuring both parties can discuss terms and clarify details.
+### Service Request Management
 
-3. **Offer Creation:**  
-   Initiate contract negotiations by creating an Offer which includes the following contract parameters:
-   === "Contract Parameters"
-       - **Full Price**
-       - **Reduced Price**
-       - **Project/Funding Reference Number**
+By clicking on **Go to Service Requests** on the Service Provider Dashboard, Service Providers are presented with an overview of all reviewed applications for their services. Applications are sorted by the Reviewer Score for quick reference.Despite the ranking, Service Providers may choose to negotiate based on other factors. 
+
+![Service Requests](img/service-provider-requests.png)
+
+By clicking on the button **View** next to an Application, Service Providers can access the application details. On the opening card Service Providers can evaluate the application details and confirm a match by clicking the button **Accept Request and Proceed with Contracting**.
+
+![Service Requests](img/service-provider-requests-2.png)
+
+### Service Provision Management
+
+Once a request was accepted, a new Service Provision Record is created and can be accessed from the Service Provider Dashboard via the button **Go to Accepted Requests**.
+
+![Accepted Service Requests](img/service-provider-matches-1.png)
+
+By clicking on **View Details** the Service Provision Record opens, which contains a Chatter to start communication between the Service Provider and the Applicant and for contract negotiation, ensuring both parties can discuss terms and clarify details such as Full and Reduced Prices. Via buttons, the contract documents are downloaded, locally signed, and then uploaded again.
+
+![Accepted Service Requests](img/service-provider-matches-2.png)
 
 !!! warning "State Aid Compliance"
     Service Providers must ensure that any discount negotiated complies with State Aid laws and all relevant national and regional regulations.
@@ -70,9 +70,9 @@ Service Providers bear the responsibility to meet strict documentation and legal
 
 - **Invoice Specifications:**  
   Every invoice must clearly state:
-  - **Full Price**
-  - **Reduced Price**
-  - **Name of the Project/Funding Reference Number**
+     - **Full Price**
+     - **Reduced Price**
+     - **Name of the Project/Funding Reference Number**
 
 - **TRL Evidence:**  
   Provide a report showing evidence for both the start and exit Technology Readiness Levels (TRL).
