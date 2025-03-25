@@ -114,6 +114,4 @@ Communication between Reviewers and Front Office Agents to address queries regar
 - **Chatter**  
     - Located at the bottom of each review record.  
     - Enables direct communication with the Front Office Agents that assigned the Reviewer to the Application.  
-  
-- **Discuss** 
-    - The entire communication history including email notifications and message history can also be accessed and replied to via the Discuss Module (left-hand menu).
+    - The entire communication history including email notifications and message history can be accessed and replied to via the Chatter.
