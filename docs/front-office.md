@@ -56,7 +56,8 @@ The Front Office follows a structured process to ensure fair and accurate review
 
 ### Step 1: Conflict of Interest Management
 
-After a notification informs a Front Office Agent about an application assignment, the agent should:
+Front Office Staff can access Applications via the left-hand menu item **TEF Front Office**. In addition, a notification informs a Front Office Agent about an application assignment.
+Upon receiving a new application the agent should:
 
 - **Review the Assignment:**  
   Carefully check the assignment for any potential conflict of interest.
@@ -64,15 +65,17 @@ After a notification informs a Front Office Agent about an application assignmen
   If a conflict is detected, decline the assignment immediately.
 - **Reassignment:**  
   The Front Office Lead will reassign the application to another agent.
-  
+
+!!! warning "Important"
+    **Do not proceed with reviewer assignment if a conflict of interest exists.**
 
 Front Office Agents can view Applications in a Kanban view, that shows the stage of the Application.
 ![Front Office Kanban View](img/front-office-kanban-view.png)
 Alternatively, applications can be viewed as list.  
 ![Front Office List View](img/front-office-list-view.png)
-
-!!! warning "Important"
-    **Do not proceed with reviewer assignment if a conflict of interest exists.**
+    
+!!! warning "Filter settings"
+    By default a filter is active that only shows Applications from your Node. Remove the filter by clicking on the cross to see all Applications.![Front Office Filter](img/front-office-filter.png)
 
 ### Step 2: Reviewer Assignment
 
