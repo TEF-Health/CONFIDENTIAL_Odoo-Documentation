@@ -6,6 +6,18 @@ Reviewers **score Applications** based on predefined criteria.
     **Note:** Reviewers only assess the quality of the AI solution and its fit to TEF-Health. Eligibility criteria (e.g., to receive State Aid support) need to be confirmed by the Applicant in order to create the Application and are not subject to further review by TEF-Health.
 
 
+## Introduction and Scope
+
+**Dear Reviewer**,
+
+Welcome to the TEF-Health Independent Review Board. TEF-Health is dedicated to accelerating the market entry of AI-driven healthcare solutions by providing comprehensive testing and validation services across the EU. As a reviewer, your role is essential in ensuring a fair and transparent selection process.
+
+You will evaluate each application based on three key criteria: (1) its novelty and potential to advance the state of the art, (2) its ability to address significant unmet medical needs, and (3) its alignment with the service offerings of TEF-Health. For each aspect, you will provide a score along with a concise verbal summary (up to 250 words) justifying your evaluation.
+
+Your assessments will directly influence which SMEs gain access to these valuable services, shaping the future of AI in healthcare across Europe. Each review is expected to take approximately 30 minutes, with up to 10 applications to be assessed within a 10-day to two-week timeframe. Please follow the provided evaluation template and ensure that you declare any potential conflicts of interest before reviewing an application.
+
+Thank you for contributing your expertise to this important initiative.
+
 ## Reviewer Onboarding and Permissions
 
 To become a Reviewer, follow the steps outlined under **Getting Started**: 
@@ -17,21 +29,6 @@ To become a Reviewer, follow the steps outlined under **Getting Started**:
 !!! note "Onboarding Completion"
     Only after the contract is signed by a Charité legal representative, the user is added to the **Reviewers Database**. While the request is pending, the user will get the role **Potential Reviewer**.
 
-## Reviewer View
-
-The Reviewer View is divided into three main dashboards accessible via the left-hand menu:
-
-=== "TEF-Review"
-    View all assigned review forms in a Kanban board or list view.  
-    ![TEF-Review](img/reviewer-view-1.png)
-
-=== "Discuss"
-    View email notifications and message history.  
-    ![Discuss](img/reviewer-view-2.png)
-
-=== "Helpdesk"
-    Access to the [Helpdesk](helpdesk.md) .
-    ![Helpdesk](img/reviewer-view-3.png)
 
 ## Review Process
 
@@ -48,20 +45,31 @@ Reviewers are assigned Applications by Front Office Agents and kept informed thr
 
 These notifications appear in the top-right header panel of the platform and are also sent via email to the Reviewer.
 
-![Notifications](img/reviewer-workflow-1-notification.png)
-
-
 ### Access Review
 
-There are four ways for a Reviewer to access an assigned **Review Form**:
+Reviews can be accessed by clicking on the link in the notification email or speech bubble. Alternatively, an overview over all assigned Applications can be accessed from the left-hand menu **TEF Review**.
 
-| **Location**                | **Link to Review Form**                         |
-|-----------------------------|-------------------------------------------------|
-| Reviewer   email inbox      | **Access Review** button                        |
-| Reviewer   Discuss module   | **Access Review** button                        |
-| Reviewer View               | **Speech Bubble** Icon (top-right header panel) |
-| Review Form                 | **TEF-Review Dashboard** (left-hand menu)       |
+![Notifications](img/reviewer-workflow-1-notification.png)
 
+In addition to the Kanban View a List View is available
+
+![Notifications](img/reviewer-workflow-list.png)
+
+### Accept Review
+
+To maintain integrity, Reviewers must declare conflicts of interest:
+
+- **Declining a Review Request:**  
+  If you identify a conflict of interest upon on opening an application, you may decline the review request immediately. ![Accept](img/reviewer-accept.png)
+  
+- **During the Review Process:**  
+  Use the **Declare Conflict of Interest** button to abort the review. This action notifies the Front Office Agent.
+
+- **Final Declaration:**  
+  Before submission, confirm via a checkbox that no conflict of interest became apparent during review. ![Accept](img/reviewer-accept-2.png)
+
+!!! warning "Conflict of Interest"
+    Declaring a conflict of interest is mandatory if any bias is identified. This measure protects both the review process and the Applicant's integrity.
 
 
 ### Review and Score
@@ -84,35 +92,19 @@ Reviewers can use buttons and checkboxes to manage the Application:
 | **Save Review**          | To save progress and complete the review later.                                                                                                                                      |
 | **Retract Review**       | To post-hoc retract a review that has been submitted to the Front Office.                                                                                                            |
 | **Conflict of Interest** | Declare a conflict of interest, abort the review and notify the Front Office Agent. A final checkbox confirms that no conflicts of interest emerged during the course of the Review. |
-| **Return Review**        | Becomes clickable only when all required fields are completed.                                                                                                                       |
+| **Submit Review**        | Becomes clickable only when all required fields are completed.                                                                                                                       |
 
 Once the review is completed:
 
 - **Review Submission:**
-    - Ensure all fields are completed; only then does the **Return Review** button activate.
-    - Submit your review to be recorded in the TEF-Health system.
-
+    - Ensure all fields are completed; only then does the **Submit Review** button activate.
+    - Submit your review to be recorded in the TEF-Health system. ![Reviewer Form](img/reviewer-submit.png)
 - **Post-Review Process:**
     - After two reviews have been submitted and if the standard deviation of scores is below 4, the relevant Service Provider(s) are automatically notified of the Service Provision Request. 
     - In case the Standard Deviation of both reviews is larger than 4, indicating a mismatch between the two reviews, a third reviewer will be invited to resolve the ambiguity.
 
 
 
-## Conflict of Interest Management
-
-To maintain integrity, Reviewers must manage conflicts of interest proactively:
-
-- **Declining a Review Request:**  
-  If you identify a conflict of interest, you may decline the review request immediately.
-  
-- **During the Review Process:**  
-  Use the **Declare Conflict of Interest** button to abort the review. This action notifies the Front Office Agent.
-
-- **Final Declaration:**  
-  Before submission, confirm via a checkbox that no conflict of interest became apparent during review.
-
-!!! warning "Conflict of Interest"
-    Declaring a conflict of interest is mandatory if any bias is identified. This measure protects both the review process and the Applicant's integrity.
 
 
 ## Communication

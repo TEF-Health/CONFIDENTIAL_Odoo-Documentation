@@ -1,6 +1,9 @@
 # Requesting Higher Roles
 
 Users can request **additional permissions** beyond the base Applicant role. Users may either **self-request a higher role or be invited**. In both cases, specific additional information is required, which is then reviewed.
+
+!!! warning "Signed Joint Controllership Agreement"
+    Roles that involve the processing of personal data by TEF-Health Consortium Partners are only granted after the Joint Controllership Agreement has been signed by the corresponding Partner, both in physical and digital formats.
     
 !!! info "Quickstart"
     Browse to [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request) and complete the form. In certain cases, you may receive invitations to upgrade your role by an authorized user. Follow the steps in the invitation email to assume the higher role.

@@ -2,6 +2,9 @@
 
 **Node Leads review and approve new Calls** created by the Coordinator, confirming that applications are handled by the applicant's country's Node. Some Nodes (e.g., the Swedish Node) may cover additional countries (such as Norway). Node Leads must confirm that the Call will run in their country (or countries), select the Service(s) from their Node that will participate, and verify compliance with national and EU regulations. In addition to confirming calls, Node Leads assign Front Office Leads to National Front Office Groups (grouped by Node and Call) for managing the applications.
 
+!!! warning "Signed Joint Controllership Agreement"
+    The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
+
 ## Node Management Dashboard
 
 - The **Node Management Dashboard** ([https://tef.charite.de/node-lead](https://tef.charite.de/node-lead)) provides a list of all current and upcoming calls. The list indicates the time period of each call, the country coverage (selected countries vs. all EU TEF-Health partner countries), the total number of services offered by the Node, and the number of services selected to participate in the Call.

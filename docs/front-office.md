@@ -2,6 +2,9 @@
 
 Front Offices **handle incoming applications, assign reviewers and write reports on service provisioning**.
 
+!!! warning "Signed Joint Controllership Agreement"
+    The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
+
 ## Front Office Structure
 
 ### National Front Offices
