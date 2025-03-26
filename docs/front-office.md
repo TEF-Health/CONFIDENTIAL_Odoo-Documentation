@@ -80,6 +80,9 @@ When Applicants submit an Application, the Front Office Lead receives a notifica
 
 #### Actions by Front Office Agent
 
+!!! warning "Conflicts of interest"
+    **Do not proceed with application handling if a conflict of interest exists.** In case you decline, the Front Office Lead will get a notification and reassign the application to another agent.
+
 The Front Office Agent receives a notification about their assignment and open it by clicking on the link in the notification or by clicking on the Application under the Kanban column **New Application Submitted**.
 ![Open Application](img/front-office-agent-open-application.png)
 
@@ -91,8 +94,9 @@ Upon receiving a new Application the agent should:
   If a conflict is detected, decline the assignment immediately.
   
 
-!!! warning "Important"
-    **Do not proceed with reviewer assignment if a conflict of interest exists.** In case you decline, the Front Office Lead will get a notification and reassign the application to another agent.
+!!! info "Additional Services"
+    Front Office Agents have the ability to add additional Services to an Application. To add additional Services, click on **Add a Line** at the field **Required TEF-Health Services** and select the checkboxes of the Services in the opening overlay. Confirm by clicking **Select**. ![Additional Services](img/front-office-additional-services.png)
+
 
 
 ### Step 3: Reviewer Assigned

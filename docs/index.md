@@ -71,9 +71,9 @@ The following notification types are configured for each user role.
 
 |  | Coordinator | Node Lead | Front Office Lead | Front Office Agent | Applicant | Reviewer |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Application submitted to **Front Office Lead** | ℹ️ | 🔔 | 🔔 | ❌ | ✅ | ❌ |
-| Application submitted to **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | ✅ | ❌ | ❌ |
-| Application submitted to **Reviewers** | ℹ️ | ℹ️ | ℹ️ | ✅ | ✅  | 🔔 |
+| Application (un)assigned: **Front Office Lead** | ℹ️ | 🔔 | 🔔 | ❌ | ✅ | ❌ |
+| Application (un)assigned: **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | ✅ | ❌ | ❌ |
+| Application (un)assigned: **Reviewers** | ℹ️ | ℹ️ | ℹ️ | ✅ | ✅  | 🔔 |
 
 
 ## Modules

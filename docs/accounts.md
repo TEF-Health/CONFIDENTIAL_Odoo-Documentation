@@ -56,4 +56,16 @@ After submitting the form, you will receive a verification email. Follow the ins
 Your account is assigned the "Applicant" role by default. See the [next chapter](permissions.md) to request additional permissions beyond the default "Applicant" role.
 
 
+## Updating Account Settings
 
+To manage account settings, click the user icon (top right) and select Preferences from the dropdown menu.
+![Account Preferences](img/account-management.png)
+
+In the Preferences tab, you can:
+
+- Configure whether you wish to receive **email** or **Odoo platform notifications**.  
+- Update your **email address**, **country**, and **institution**.  (the TEF-Health Node will be set automatically based on the institution)
+
+![Account Preferences](img/account-settings.png) 
+ 
+- Click **Save** to ensure changes are retained.  

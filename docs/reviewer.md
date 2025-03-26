@@ -2,7 +2,7 @@
 
 Reviewers **score Applications** based on predefined criteria.
 
-!!! tip "Key aspect"
+!!! tip "Key aspect of review"
     **Note:** Reviewers only assess the quality of the AI solution and its fit to TEF-Health. Eligibility criteria (e.g., to receive State Aid support) need to be confirmed by the Applicant in order to create the Application and are not subject to further review by TEF-Health.
 
 
@@ -47,23 +47,27 @@ These notifications appear in the top-right header panel of the platform and are
 
 ### Access Review
 
-Reviews can be accessed by clicking on the link in the notification email or speech bubble. Alternatively, an overview over all assigned Applications can be accessed from the left-hand menu **TEF Review**.
+Applications can be accessed by clicking on the link in the notification email or speech bubble. Alternatively, an overview over all assigned Applications can be accessed from the left-hand menu **TEF Review**.
 
-![Notifications](img/reviewer-workflow-1-notification.png)
+![Review Dashbaord](img/reviewer-open-view.png)
 
-In addition to the Kanban View a List View is available
+The Reviewer Dashboard consists of a Kanban board that shows Applications in their different stages. The **Open** column indicates applications that still need to be reviewed, while the **Submitted** column shows Applications that have already been reviewed and submitted back to the Front Office.
 
-![Notifications](img/reviewer-workflow-list.png)
+![Notification and Kanban](img/reviewer-workflow-1-notification.png)
+
+In addition to the Kanban View a List View is available. Toggle between Kanban and List view with the buttons on the right near the top of the page.
+
+![List](img/reviewer-workflow-list.png)
 
 ### Accept Review
 
-To maintain integrity, Reviewers must declare conflicts of interest:
+To maintain integrity, Reviewers must declare conflicts of interest. Declaring a conflict of interest notifies the Front Office Agent to remove the Reviewer from the assignment and assign the Application to another Reviewer.
 
-- **Declining a Review Request:**  
-  If you identify a conflict of interest upon on opening an application, you may decline the review request immediately. ![Accept](img/reviewer-accept.png)
+- **Accept or decline a Review Request:**  
+  If you identify a conflict of interest upon opening an application, you may decline the review request immediately by clicking on **Reject Review**. If you do not perceive a conflict of interest at this time click on **Accept Review**. ![Accept](img/reviewer-accept.png)
   
 - **During the Review Process:**  
-  Use the **Declare Conflict of Interest** button to abort the review. This action notifies the Front Office Agent.
+  Use the **Declare Conflict of Interest** button to abort the review.
 
 - **Final Declaration:**  
   Before submission, confirm via a checkbox that no conflict of interest became apparent during review. ![Accept](img/reviewer-accept-2.png)
@@ -105,13 +109,11 @@ Once the review is completed:
 
 
 
-
-
 ## Communication
 
 Communication between Reviewers and Front Office Agents to address queries regarding review assignments or technical issues can be performed in two ways:
 
 - **Chatter**  
-    - Located at the bottom of each review record.  
+    - Located at the bottom or right-hand side of each review record.  
     - Enables direct communication with the Front Office Agents that assigned the Reviewer to the Application.  
     - The entire communication history including email notifications and message history can be accessed and replied to via the Chatter.

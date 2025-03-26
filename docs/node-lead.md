@@ -5,30 +5,43 @@
 !!! warning "Signed Joint Controllership Agreement"
     The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
 
-## Node Management Dashboard
+## Node Management Dashboard  
 
-- The **Node Management Dashboard** ([https://tef.charite.de/node-lead](https://tef.charite.de/node-lead)) provides a list of all current and upcoming calls. The list indicates the time period of each call, the country coverage (selected countries vs. all EU TEF-Health partner countries), the total number of services offered by the Node, and the number of services selected to participate in the Call.
+- The **Node Management Dashboard** is accessible via the lefthand menu button **TEF Node Management**   
+- It provides a list of all current and upcoming **Calls**. The list indicates the time period of each call, the country coverage (selected countries vs. all EU TEF-Health partner countries), the total number of services offered by the Node, and the number of services selected to participate in the Call.
 
 ![Node Dashboard Overview](img/node-lead-1.png)
 
 ## Reviewing and Approving Call Participation
 
-- **Node Leads receive notifications** when a new Call Draft was created by the Coordinator.
-- To **review and update** Call Details, Node Leads **click on a call entry** on the dashboard to view and edit the Call information.
-- Node Leads **select all Services** from their Node that will participate in the Call from the list provided on the Call Details page. Node Leads must approve the inclusion of Services (previously approved by the Service Providers) into the Call.
+- **Node Leads receive notifications** when a new Call Draft was created by the Coordinator.  
+- To **review and update** Call Details, Node Leads **click on a call entry** on the Dashboard.  
+- In the Call Details View, Node Leads are presented with a list of Services that have been approved by Service Providers to participate in the Call.  
+- Node Leads **select all Services** from their Node that they approve to participate in the Call from the list. Node Leads must approve the inclusion of Services (previously approved by the Service Providers) into the Call.
 - Node Leads confirm Call participation by clicking "**I agree that services of the node I am representing are included in the selected call**". Node Leads receive a confirmation email that their Node participates in the Call.
 
 ![Update Services](img/node-lead-2.png)
 
-## Assigning Front Office Leads
+## National Front Offices
 
 ### Forming National Front Office Groups
+
+TBD
+
 - **Group Formation:**  
   Calls are grouped by Node and Call, creating National Front Office Groups (e.g., Sweden-Call#2, Sweden-Call#3, ...).
+
+
+![Front Office Assignment](path/to/front-office-assignment.png)
+
+### Assigning Front Office Leads
+
+TBD
+
 - **Assignment Process:**   
     - Assign Front Office Leads to each group directly from the Call Details interface.
     - Front Office Leads are responsible for further assigning Front Office Agents to groups and to new applications.
-
+    
 ![Front Office Assignment](path/to/front-office-assignment.png)
 
 ## Compliance Verification
