@@ -8,7 +8,7 @@ nav:
   - Getting Started: 
     - Creating a User Account: accounts.md
     - Requesting Permissions: permissions.md
-    - Application Workflow: workflow.md
+    - Call Workflow: workflow.md
   - User Roles:
     - Helpdesk: helpdesk.md
     - Applicant: applicant.md

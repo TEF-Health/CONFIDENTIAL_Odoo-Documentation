@@ -1,4 +1,6 @@
-# Application Workflow
+# Call Workflow
+
+## Overview
 
 Below is an overview of the process from service offering to final reporting:
 
@@ -12,3 +14,9 @@ Below is an overview of the process from service offering to final reporting:
 | **6. Contracting**| Service Provider & Applicant   | Create an Offer to begin the contracting process via Contact Card and Chatter for negotiations | Contract signed |
 | **7. Service Provisioning** | Service Provider & Applicant            | Service Provider provides Service to Applicant           | Executed Service     |
 | **8. Compliance & Documentation** | Service Provider | Enter final pricing details, document compliance, and prepare invoices | Fulfillment of legal and State Aid requirements          |
+
+
+## Call cycles
+
+Calls can consist of several cycles, in order to add, update, or remove Service Offerings during the course of a running Call. When Services have been changed a difference logger tracks and displays all changes and increases the “Cycle” counter by 1. Other changes are also tracked (like the deadline or Nodes included) but this does not affect the Cycle.
+![Workflow Cycles](img/workflow-cycles.png)

@@ -46,10 +46,11 @@ After submitting the form, you will receive a verification email. Follow the ins
    
 - You can now **log into the TEF-Health Grant Management System at [https://tef.charite.de/odoo](https://tef.charite.de/odoo)**
 
-- On the Odoo Login Page, click on "**Login with Keycloak**"
+- On the Odoo Login Page, click on "**Login with Keycloak**" and enter your credentials.
 
 ![Registration Keycloak 3](img/registration-keycloak-3.png)
-  
+
+- Congratulations, you are now logged into the TEF-Health platform. Please note that users are automatically logged out after 10 minutes of inactivity.
 
 ### (Optional) Step 5: Requesting additional permissions
 Your account is assigned the "Applicant" role by default. See the [next chapter](permissions.md) to request additional permissions beyond the default "Applicant" role.

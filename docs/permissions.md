@@ -36,11 +36,6 @@ Depending on the role you are requesting, you will need to perform the following
     1. TEF Node  
     2. Organization  
     ![Other Role onboarding](img/permissions-1.png)
-=== "Funder"
-    To request this role, provide the following information  
-    1. TEF Node  
-    2. Organization 
-    ![Other Role onboarding](img/permissions-1.png) 
 === "Front Desk Agent"
     To request this role, provide the following information  
     1. TEF Node  

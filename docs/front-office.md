@@ -29,14 +29,8 @@ Front Office Leads are assigned by Node Leads. Their primary responsibilities in
 - **Receiving Notifications:**  
   Be alerted when new applications are pre-submitted or when an agent declines an assignment due to a conflict of interest.
   
-Front Office Leads have an overview over their Team.
+Front Office Leads get an overview over the Front Office Team by clicking on the button **Front Office Team** on the top navigation bar.
 ![Front Office View](img/front-office-lead-view.png)
-
-To assign Front Office Agents, Leads perform the following steps.
-
-1. ...
-2. ...
-3. ...
 
 
 ### Front Office Agents
@@ -55,39 +49,58 @@ Front Office Agents are assigned to National Front Offices by Front Office Leads
 
 ## Application Review Workflow
 
-The Front Office follows a structured process to ensure fair and accurate review of applications. The workflow is divided into several key steps:
-
-### Step 1: Conflict of Interest Management
-
-Front Office Staff can access Applications via the left-hand menu item **TEF Front Office**. In addition, a notification informs a Front Office Agent about an application assignment.
-Upon receiving a new application the agent should:
-
-- **Review the Assignment:**  
-  Carefully check the assignment for any potential conflict of interest.
-- **Decline if Necessary:**  
-  If a conflict is detected, decline the assignment immediately.
-- **Reassignment:**  
-  The Front Office Lead will reassign the application to another agent.
-
-!!! warning "Important"
-    **Do not proceed with reviewer assignment if a conflict of interest exists.**
-
-Front Office Agents can view Applications in a Kanban view, that shows the stage of the Application.
+The Front Office follows a structured process to ensure fair and accurate review of applications. Front Office Staff can access Applications via the left-hand menu item **TEF Front Office**. In addition, a notification informs a Front Office Agent about an application assignment. Front Office Agents can view Applications in a Kanban view, that shows the stage of the Application. 
 ![Front Office Kanban View](img/front-office-kanban-view.png)
-Alternatively, applications can be viewed as list.  
+Alternatively, the Applications can be viewed as list.  
 ![Front Office List View](img/front-office-list-view.png)
     
 !!! warning "Filter settings"
     By default a filter is active that only shows Applications from your Node. Remove the filter by clicking on the cross to see all Applications.![Front Office Filter](img/front-office-filter.png)
 
-### Step 2: Reviewer Assignment
+The workflow is divided into several key steps, which can be monitored by the progress bar in each Application record, or by its position on the Kanban board.
+![Front Office Progress Bar](img/front-office-progress-bar.png)
 
-Upon receiving a new application, Front Office Agents must assign **two reviewers** from the Reviewers group.  
+### Step 1: New Unfinished Application 
+
+Front Office Leads (and Node Leads) can monitor Application drafts by the Applicant before they are submitted. No action by the Front Office is required.
+
+![Unfinished Application](img/front-office-unfinished.png)
+
+### Step 2: New Application Submitted
+
+#### Actions by Front Office Lead
+
+When Applicants submit an Application, the Front Office Lead receives a notification. To assign Front Office Agents to the Application, the Lead performs the following steps:
+
+1. Open the Application by clicking on it under the column **New Application Submitted** or by clicking on the link in the notification. ![Assign Agent](img/front-office-assign-agent.png)
+2. Click on the field **Front Office Agent** and select one Agent. 
+3. Click on the **Save** button to save the change. ![Assign Agent](img/front-office-assign-agent-2.png)
+4. The Agent receives a Notification about their assignment.
+
+
+#### Actions by Front Office Agent
+
+The Front Office Agent receives a notification about their assignment and open it by clicking on the link in the notification or by clicking on the Application under the Kanban column **New Application Submitted**.
+![Open Application](img/front-office-agent-open-application.png)
+
+Upon receiving a new Application the agent should:
+
+- **Review the Assignment:**  
+  Carefully check the assignment for any potential conflict of interest.
+- **Decline if Necessary:**  
+  If a conflict is detected, decline the assignment immediately.
+  
+
+!!! warning "Important"
+    **Do not proceed with reviewer assignment if a conflict of interest exists.** In case you decline, the Front Office Lead will get a notification and reassign the application to another agent.
+
+
+### Step 3: Reviewer Assigned
+
+Front Office Agents must assign **two reviewers** from the Reviewers group.  
 Assignments are made based on the reviewers' expertise to ensure a thorough evaluation.
 
 > **Reference:** See the [Reviewer Assignment Guidelines](#) for detailed criteria.
-
-### Step 3: Review Process
 
 Once reviewers submit their evaluations, the system calculates the **standard deviation** of their scores:
 
@@ -95,8 +108,18 @@ Once reviewers submit their evaluations, the system calculates the **standard de
   The application proceeds based on the two reviews.
 - **Standard Deviation > 4:**  
   A notification prompts the assignment of a **third reviewer** to ensure an accurate assessment.
+  
+#### Actions by Front Office Agent
 
-### Step 4: Post-Provisioning Survey
+To assign Reviewers, perform the following steps:
+
+1. Open the Application by clicking on it in the Kanban column **New Application Submitted** ![Open Application](img/front-office-agent-open-application.png)  
+2. Click on the field **Reviewers** and select two Reviewers. 
+3. Click on the **Save** button to save the change. ![Assign Agent](img/front-office-agent-assign-reviewers.png)
+
+### Step 4: Completed Review, Matchmaking and Post-Provisioning Survey
+
+#### Actions by Front Office Agent
 
 After service provisioning is complete, Front Office Agents receive a notification prompting them to complete the **Post-Provisioning Survey**. This feedback is essential for continuous process improvement.
 

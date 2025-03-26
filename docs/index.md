@@ -47,7 +47,7 @@ Jump to the Documentation of each User Role:
 | Assign Front Office Lead                        |       ✅        	 |      ✅      	 |    ✅       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | Assign Front Office Agent to Front Office Group |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | Assign Front Office Agent to Application        |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
-| View all Applications                           |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
+| View all Applications (incl. unfinished)        |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | View all Reviews                                |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | Assign Reviewer                                 |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ✅          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | Reject Application                              |       ✅        	 |      ✅      	 |    ✅       	|          ✅             	 |         ✅          	 |     ✅     |          ❌          |        ❌          |     ❌      |  ❌            |
@@ -58,6 +58,22 @@ Jump to the Documentation of each User Role:
 | View all Helpdesk Tickets                       |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ✅            |
 | Assign Helpdesk Agents to Helpdesk Tickets      |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ✅            |
 | Respond to Helpdesk Tickets                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ✅            |
+
+
+## Notifications
+
+The following notification types are configured for each user role.
+
+- 🔔 Call to Action  
+- ✅ Confirmation  
+- ℹ️ Information  
+- ❌ None  
+
+|  | Coordinator | Node Lead | Front Office Lead | Front Office Agent | Applicant | Reviewer |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Application submitted to **Front Office Lead** | ℹ️ | 🔔 | 🔔 | ❌ | ✅ | ❌ |
+| Application submitted to **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | ✅ | ❌ | ❌ |
+| Application submitted to **Reviewers** | ℹ️ | ℹ️ | ℹ️ | ✅ | ✅  | 🔔 |
 
 
 ## Modules
