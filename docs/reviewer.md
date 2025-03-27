@@ -26,8 +26,8 @@ To become a Reviewer, follow the steps outlined under **Getting Started**:
 - [**Request the Potential Reviewer Role**](permissions.md)
 - [**Complete the Reviewer Onboarding**](permissions.md#reviewer).
 
-!!! note "Onboarding Completion"
-    Only after the contract is signed by a Charité legal representative, the user is added to the **Reviewers Database**. While the request is pending, the user will get the role **Potential Reviewer**.
+!!! note "Reviewer Contract"
+    Only after the Reviewer Contract has been countersigned by a Charité legal representative, the user is added to the **Reviewers Database**. While the request is pending, the user will get the role **Potential Reviewer**.
 
 
 ## Review Process

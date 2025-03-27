@@ -1,81 +1,75 @@
 # Coordinator Guide
 
-The Coordinator **grants user permissions, approves matchmakings, and starts calls**. The Coordinator holds the highest level of permissions within the TEF-Health Platform. 
+The Coordinator 
 
-## User Management
+- **handles access requests** for higher roles  
+- **adds or removes Reviewers** to the reviewer database   
+- **approves matchmakings**
+- and **starts calls**.
 
-### Granting User Permissions and Roles
+## Access Requests
+
+### Request by user
 
 When users [request higher roles](permissions.md) the Coordinator receives a notification. The Coordinator confirms or denies the requested user role, ensuring the user has appropriate access to the platform's features.
 
-### Reviewer Management (Onboarding)
+1. Open the **Access Request** view of the Coordinator Dashboard by clicking on the button **TEF Coordinator** in the left-hand menu and then on **Access Requests** in the top navigation bar. ![Dashboard](img/coordinator-dashboard.png)   
+2. Review the user information (1) and the requested role (2). Click **Approve** or **Reject** to grant or reject the requested role. The field *State* and the color of the line change depending on the status of the user. ![Role Management](img/coordinator-access-requests.png)   
 
-1. Upon receiving a **Reviewer Onboarding Notification**, navigate to the **Reviewer Management View** (left-hand menu).
-2. Click on each pending review request item in the list to open its details.
-3. Verify the information and click on **Accept as Reviewer** to add the Reviewer to the Reviewer Database.
+### Invitation by Coordinator
 
-![Reviewer Management](img/reviewer-management-1.png)
+In addition to requests initiated by the user, the Coordinator can invite users to higher roles.
 
+TBD 
 
-### Reviewer Management (Reviewer Database)
-
-1. Upon onboarding, Reviewers in the Reviewer Database are managed via the Coordinator View button **Reviewers** (top navigation bar).
-![Reviewer Management](img/reviewer-management-2.png)
-2. Clicking on a list entry allows to change the Reviewer status.
-![Reviewer Management](img/reviewer-management-3.png)
-3. Clicking on the small arrow next to *Expertise Assessment* allows to open a view for modifying the expertise.
-![Reviewer Management](img/reviewer-management-4.png)
-
-
-### Front Office Leads and Groups Management
-
-Coordinators assign Users the role "Front Office Lead" to facilitate the formation of Front Office Groups.
-
-- **Assigning Front Office Roles:**  
-    - Assign Front Office Leads.  
-    - Assign Front Office Agents to groups and applications.  
-
-1. Navigate to ...
-2. Select the user from
+1. ...
+2. ...
 3. ...
 
 
-### User Invitations and Role Assignments
+## Reviewers
 
-Coordinators can invite new users to the platform and directly assign them specific roles.
+A contract is formed between each Reviewer and TEF-Health coordinator Charité. The Coordinator grants the role **Reviewer** after confirming that the contract was signed.
 
-1. Navigate to ...
-2. Enter the user's email address and select the role to be assigned.
-3. Send the invitation; the user will receive an email to confirm and activate their account.
+!!! note "Reviewer Contract"
+    Only after the Reviewer Contract has been countersigned by a Charité legal representative, the user is added to the **Reviewers Database**. While the request is pending, the user will get the role **Potential Reviewer**.
+
+1. Open the **Reviewers** view of the Coordinator Dashboard by clicking on the button **TEF Coordinator** in the left-hand menu and then on **Reviewers** in the top navigation bar. ![Reviewer Management](img/coordinator-reviewers.png)   
+2. Click on a list item to open the details of a Reviewer request. Review the Expertise Assessment and the uploaded and signed Contract. Click **Change to Reviewer** to approve the request. ![Reviewer Management](img/coordinator-approve-reviewer.png)  
 
 
+## Applications
+
+After Reviewers provided scores for an application, the Coordinator confirms the matchmaking, allowing Applicants and Service Providers to commence contract negotiations.
+
+1. Open the **Applications** view of the Coordinator Dashboard by clicking on the button **TEF Coordinator** in the left-hand menu and then on **Applications** in the top navigation bar. ![Applications Matchmaking](img/coordinator-applications-matchmaking.png)  
+2. Review the application information by clicking (1) on a list item under **Completed Review** to see all Application details. Click **Approve for Matchmaking** (2) to allow matchmaking. ![Grant Match](img/coordinator-approve-match.png)    
+3. Retract Matchmakings by clicking on **Retract from Matchmaking** on the list items under the section **Matchmaking**.
 
 
+## Calls
 
-## Managing Calls
+The Coordinator initiates new calls.
 
-### Starting a Call
 
-Coordinators initiate new calls.
-
+1. Open the **Calls** view of the Coordinator Dashboard by clicking on the button **TEF Coordinator** in the left-hand menu and then on **Calls** in the top navigation bar. ![Applications Matchmaking](img/coordinator-calls.png)  
+2. Start a new call by clicking on the button **New** ![New Call](img/coordinator-calls-new.png)      
+3. Fill out the required information for the call and click Save (the cloud icon) or on Discard (the cross) near the top. Upon clicking Save the Node Leads and Service Providers will receive the notification requesting their respective confirmations (Node Leads must confirm overall Call details, Service Providers must confirm the inclusion of their Services into the Call). ![New Call](img/coordinator-calls-new-info.png)  
 **Required Information to Start a Call:**
 
-- Opening Date: When the call becomes active.
-- Closing Date or Condition: E.g., target service provisions or total discount volume.
-- Timelines for Internal Processes:
-  - Application evaluation timeline.
-  - Call updates (e.g., adding nodes and services).
-- Evaluation Criteria: Standards for assessing applications.
-- Participating Country Approval: Confirmation by Node Leaders upon call draft creation.
-- Participating Services Approval: Confirmation by Service Providers after Node Leaders' approval.
+    - Opening Date: When the call becomes active.
+    - Closing Date or Condition: E.g., target service provisions or total discount volume.
+    - Timelines for Internal Processes:
+        - Application evaluation timeline.
+        - Call updates (e.g., adding nodes and services).
+    - Evaluation Criteria: Standards for assessing applications.
+    - Participating Country Approval: Confirmation by Node Leaders upon call draft creation.
+    - Participating Services Approval: Confirmation by Service Providers after Node Leaders' approval.   
 
-### Approving Matchmaking
+4. Modify existing Call records by clicking on a Call, changing the information and clicking on Save (cloud icon) near the top.
 
-After reviewers provide scores for an application, the Coordinator confirms the matchmaking, allowing applicants and service providers to commence contract negotiations.
-![Matchmaking](img/coordinator-matchmaking1.png)
-![Matchmaking](img/coordinator-matchmaking2.png)
 
-## Additional Responsibilities
+## Additional Permissions
 
 ### Service Catalogue Management
 

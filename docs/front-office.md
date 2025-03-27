@@ -49,7 +49,7 @@ Front Office Agents are assigned to National Front Offices by Front Office Leads
 
 ## Application Review Workflow
 
-The Front Office follows a structured process to ensure fair and accurate review of applications. Front Office Staff can access Applications via the left-hand menu item **TEF Front Office**. In addition, a notification informs a Front Office Agent about an application assignment. Front Office Agents can view Applications in a Kanban view, that shows the stage of the Application. 
+The Front Office follows a structured process to ensure fair and accurate review of applications. Front Office staff can access Applications via the left-hand menu item **TEF Front Office**. In addition, a notification informs a Front Office Agent about an application assignment. Front Office Agents can view Applications in a Kanban view, that shows the stage of the Application. 
 ![Front Office Kanban View](img/front-office-kanban-view.png)
 Alternatively, the Applications can be viewed as list.  
 ![Front Office List View](img/front-office-list-view.png)
@@ -81,17 +81,17 @@ When Applicants submit an Application, the Front Office Lead receives a notifica
 #### Actions by Front Office Agent
 
 !!! warning "Conflicts of interest"
-    **Do not proceed with application handling if a conflict of interest exists.** In case you decline, the Front Office Lead will get a notification and reassign the application to another agent.
+    **Do not proceed with application handling if a conflict of interest exists according to the [Code of Conduct](#).** In case you decline, the Front Office Lead will get a notification and reassign the application to another agent.
 
-The Front Office Agent receives a notification about their assignment and open it by clicking on the link in the notification or by clicking on the Application under the Kanban column **New Application Submitted**.
+The Front Office Agent receives a notification about their assignment and opens it by clicking on the link in the notification or by clicking on the Application under the Kanban column **New Application Submitted**.
 ![Open Application](img/front-office-agent-open-application.png)
 
 Upon receiving a new Application the agent should:
 
 - **Review the Assignment:**  
-  Carefully check the assignment for any potential conflict of interest.
+  Carefully check the assignment for any potential conflict of interest according to the [Code of Conduct](#).
 - **Decline if Necessary:**  
-  If a conflict is detected, decline the assignment immediately.
+  If a conflict is detected, decline the assignment immediately by clicking the button **Decline Assignment**.
   
 
 !!! info "Additional Services"
@@ -132,6 +132,7 @@ After service provisioning is complete, Front Office Agents receive a notificati
 For further guidance, please refer to:
 
 - [Reviewer Assignment Guidelines](#)
-- [Conflict of Interest Policy](#)
+- [Conflict of Interest Policy](#) / [Code of Conduct](#)
 - [Post-Provisioning Survey Instructions](#)
+
 
