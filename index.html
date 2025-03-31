@@ -931,12 +931,20 @@
 <li><a href="permissions/">Requesting Higher Roles</a> - Request permissions higher than the base role</li>
 </ul>
 <h2 id="accessing-the-tef-health-call-management-portal">Accessing the TEF-Health Call Management Portal</h2>
-<p>The <strong>Call Management Portal</strong> can be accessed in two ways, via the <strong>TEF-Health Portal Landing Page</strong> or by directly browsing to the <strong>Call Management Landing Page</strong>.</p>
+<p>The <strong>Call Management Portal</strong> can be accessed in two ways,  </p>
+<ol>
+<li>
+<p>via the <strong>TEF-Health Portal Landing Page</strong> <a href="https://tef.charite.de">https://tef.charite.de</a> and clicking on <strong>TEF Services Portal</strong> </p>
+</li>
+<li>
+<p>or by directly browsing to the <strong>Call Management Landing Page</strong> <a href="https://tef.charite.de/portal/home">https://tef.charite.de/portal/home</a>.  </p>
+</li>
+</ol>
 <h3 id="tef-health-portal-landing-page">TEF-Health Portal Landing Page</h3>
-<p>Browse to <a href="https://tef.charite.de">https://tef.charite.de</a> and click on <strong>Call Management</strong>.
+<p>Browse to <a href="https://tef.charite.de">https://tef.charite.de</a> and click on <strong>TEF Services Portal</strong>.
 <img alt="TEF-Health Portal Landing Page" src="img/portal-landing-page.png" /></p>
 <h3 id="call-management-landing-page">Call Management Landing Page</h3>
-<p>Browse to <a href="https://tef.charite.de/odoo">https://tef.charite.de/odoo</a> and click on <strong>Login with Keycloak</strong> and enter your account credentials.
+<p>Browse to <a href="https://tef.charite.de/portal/home">https://tef.charite.de/portal/home</a> and click on <strong>Login with Keycloak</strong> and enter your account credentials.
 <img alt="Call Management Login Page" src="img/call-management-login.png" /></p>
 <h2 id="user-roles">User Roles</h2>
 <p>Jump to the Documentation of each User Role:</p>
@@ -1220,7 +1228,6 @@
 <p>The following notification types are configured for each user role.</p>
 <ul>
 <li>🔔 Call to Action  </li>
-<li>✅ Confirmation  </li>
 <li>ℹ️ Information  </li>
 <li>❌ None  </li>
 </ul>
@@ -1234,34 +1241,48 @@
 <th style="text-align: center;">Front Office Agent</th>
 <th style="text-align: center;">Applicant</th>
 <th style="text-align: center;">Reviewer</th>
+<th style="text-align: center;">Service Provider</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">Application (un)assigned: <strong>Front Office Lead</strong></td>
+<td style="text-align: center;">Application submitted</td>
 <td style="text-align: center;">ℹ️</td>
-<td style="text-align: center;">🔔</td>
+<td style="text-align: center;">ℹ️</td>
 <td style="text-align: center;">🔔</td>
 <td style="text-align: center;">❌</td>
-<td style="text-align: center;">✅</td>
 <td style="text-align: center;">❌</td>
-</tr>
-<tr>
-<td style="text-align: center;">Application (un)assigned: <strong>Front Office Agent</strong></td>
-<td style="text-align: center;">ℹ️</td>
-<td style="text-align: center;">ℹ️</td>
-<td style="text-align: center;">🔔</td>
-<td style="text-align: center;">✅</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">❌</td>
 </tr>
 <tr>
-<td style="text-align: center;">Application (un)assigned: <strong>Reviewers</strong></td>
+<td style="text-align: center;">Application (un)assigned to/from <strong>Front Office Agent</strong></td>
+<td style="text-align: center;">ℹ️</td>
+<td style="text-align: center;">ℹ️</td>
+<td style="text-align: center;">🔔</td>
+<td style="text-align: center;">🔔</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">❌</td>
+</tr>
+<tr>
+<td style="text-align: center;">Application (un)assigned to/from <strong>Reviewers</strong></td>
 <td style="text-align: center;">ℹ️</td>
 <td style="text-align: center;">ℹ️</td>
 <td style="text-align: center;">ℹ️</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
+<td style="text-align: center;">🔔</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">🔔</td>
+<td style="text-align: center;">❌</td>
+</tr>
+<tr>
+<td style="text-align: center;">Matchmaking accepted</td>
+<td style="text-align: center;">ℹ️</td>
+<td style="text-align: center;">ℹ️</td>
+<td style="text-align: center;">ℹ️</td>
+<td style="text-align: center;">ℹ️</td>
+<td style="text-align: center;">🔔</td>
+<td style="text-align: center;">❌</td>
 <td style="text-align: center;">🔔</td>
 </tr>
 </tbody>
