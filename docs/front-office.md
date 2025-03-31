@@ -1,6 +1,11 @@
 # Front Office Guide
 
-Front Offices **handle incoming applications, assign reviewers and write reports on service provisioning**.
+Front Offices  
+
+- **handle incoming applications**   
+- **assign reviewers**   
+- **monitor matchmakings**  
+- and **write reports on service provisioning**.
 
 !!! warning "Signed Joint Controllership Agreement"
     The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
@@ -32,6 +37,9 @@ Front Office Leads are assigned by Node Leads. Their primary responsibilities in
 Front Office Leads get an overview over the Front Office Team by clicking on the button **Front Office Team** on the top navigation bar.
 ![Front Office View](img/front-office-lead-view.png)
 
+!!! info "Deputies"
+    Each Front Office Team requires a Lead and a Deputy Lead, who assumes the Lead's responsibilities when the Lead is unavailable.
+    
 
 ### Front Office Agents
 
@@ -119,13 +127,22 @@ To assign Reviewers, perform the following steps:
 
 1. Open the Application by clicking on it in the Kanban column **New Application Submitted** ![Open Application](img/front-office-agent-open-application.png)  
 2. Click on the field **Reviewers** and select two Reviewers. 
-3. Click on the **Save** button to save the change. ![Assign Agent](img/front-office-agent-assign-reviewers.png)
+3. Click on the **Save** button to save the change. ![Assign Reviewers](img/front-office-agent-assign-reviewers.png)
+4. If, after two completed reviews, the value in the field **Evaluation Score Standard Deviation** is larger than 4, assign a third reviewer and click on save. ![Assign Third reviewer](img/front-office-agent-assign-reviewers-third.png)
 
-### Step 4: Completed Review, Matchmaking and Post-Provisioning Survey
+### Step 4: Completed Review and Matchmaking
 
 #### Actions by Front Office Agent
+When a Service Provider accepted a Matchmaking request, the corresponding Kanban card turns Green. 
+
+![Match confirmed by Service Provider](img/front-office-match-confirmed.png)
+
+Clicking on the card allows to view the ongoing contract negotiations.
+
+### Step 5: Post-Provisioning Survey
 
 After service provisioning is complete, Front Office Agents receive a notification prompting them to complete the **Post-Provisioning Survey**. This feedback is essential for continuous process improvement.
+
 
 ## Additional Resources
 

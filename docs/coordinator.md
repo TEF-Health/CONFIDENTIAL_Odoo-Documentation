@@ -3,9 +3,12 @@
 The Coordinator 
 
 - **handles access requests** for higher roles  
+- **starts calls**.
 - **adds or removes Reviewers** to the reviewer database   
-- **approves matchmakings**
-- and **starts calls**.
+- and **approves and monitors matchmakings**.
+
+!!! warning "Signed Joint Controllership Agreement"
+    The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
 
 ## Access Requests
 
@@ -70,6 +73,10 @@ The Coordinator initiates new calls.
 
 
 ## Additional Permissions
+
+### Matchmaking Monitoring
+
+TBD
 
 ### Service Catalogue Management
 

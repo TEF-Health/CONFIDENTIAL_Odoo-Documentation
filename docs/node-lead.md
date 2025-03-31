@@ -1,6 +1,13 @@
 # Node Lead Guide
 
-**Node Leads review and approve new Calls** created by the Coordinator, confirming that applications are handled by the applicant's country's Node. Some Nodes (e.g., the Swedish Node) may cover additional countries (such as Norway). Node Leads must confirm that the Call will run in their country (or countries), select the Service(s) from their Node that will participate, and verify compliance with national and EU regulations. In addition to confirming calls, Node Leads assign Front Office Leads to National Front Office Groups (grouped by Node and Call) for managing the applications.
+Node Leads  
+
+- **review and approve new Calls** created by the Coordinator, confirming that applications  
+- **confirm that the Call will run in their country (or countries)** and **Applications are handled** by the Node's Front Office Team; some Nodes (e.g., the Swedish Node) may cover additional countries (such as Norway)  
+- **select the Service(s) from their Node that will participate**  
+- **verify compliance with national and EU regulations**
+- **assign Front Office Leads to National Front Office Groups** for managing the applications  
+- and **monitor matchmakings**.
 
 !!! warning "Signed Joint Controllership Agreement"
     The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
@@ -43,6 +50,12 @@ TBD
     - Front Office Leads are responsible for further assigning Front Office Agents to groups and to new applications.
     
 ![Front Office Assignment](path/to/front-office-assignment.png)
+
+
+## Matchmaking Monitoring
+
+TBD
+
 
 ## Compliance Verification
 

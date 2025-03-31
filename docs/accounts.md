@@ -21,22 +21,26 @@ This section explains how to obtain an account on the TEF-Health Platform [tefhe
 ## Step by step
 
 ### Step 1: Access the Registration Portal
-- Open your web browser and navigate to the [TEF-Health Registration Page](https://tef.charite.de/register). TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created.
-- On the login page, click on "**Register**"
-
-![Registration Keycloak](img/registration-keycloak.png)
+- Open your web browser and navigate to the [https://tef.charite.de/register](https://tef.charite.de/register). TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created. ![Registration Keycloak](img/registration-landing-page.png)
+- Alternatively, browse to [https://tef.charite.de/](https://tef.charite.de/) and click on "**Register**" ![Registration Keycloak](img/registration-landing-page2.png)
 
 ### Step 2: Complete the Registration Form
 You will be asked to provide the following information:  
    
 - **Name:** *Enter your full name.*  
+- **Password:** *Enter a Password (min. 8 incl. upper/lower, numeral and special characters).*  
 - **Email:** *Provide a valid email address.*  
-- **Password:** *Provide a secure password.*   
-- **Country:** *Select your country of residence from the dropdown list.*  
-- **Consent to Privacy Policy:** *Read the [Privacy Policy](https://tefhealth.eu/privacy-policy) and check the box to indicate your consent.*  
+- **First Name:** *Provide your First Name.*  
+- **Last Name:** *Provide your Last Name.*  
+
+On the second page, provide your consent to the processing of the personal data you just specified.
+
+![Registration Keycloak](img/registration-consent.png)
+
+
+- **Consent to Privacy Policy:** *Read the [Privacy Policy](https://tefhealth.eu/privacy-policy) and check the box to indicate your consent.* The first checkbox, consent to TEF-Health Platform is mandatory for using the platform.
 - **Consent to Email Marketing/Newsletters:** *Check the box if you wish to receive marketing emails or newsletters.*  
 
-![Registration Keycloak 2](img/registration-keycloak-2.png)
 
 ### Step 3: E-Mail Verification
 After submitting the form, you will receive a verification email. Follow the instructions in the email to verify your email address. 

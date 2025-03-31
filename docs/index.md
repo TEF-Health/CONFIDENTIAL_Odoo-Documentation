@@ -11,14 +11,18 @@
 
 ## Accessing the TEF-Health Call Management Portal
 
-The **Call Management Portal** can be accessed in two ways, via the **TEF-Health Portal Landing Page** or by directly browsing to the **Call Management Landing Page**.
+The **Call Management Portal** can be accessed in two ways,  
+
+1. via the **TEF-Health Portal Landing Page** [https://tef.charite.de](https://tef.charite.de) and clicking on **TEF Services Portal** 
+
+2. or by directly browsing to the **Call Management Landing Page** [https://tef.charite.de/portal/home](https://tef.charite.de/portal/home).  
 
 ### TEF-Health Portal Landing Page
-Browse to [https://tef.charite.de](https://tef.charite.de) and click on **Call Management**.
+Browse to [https://tef.charite.de](https://tef.charite.de) and click on **TEF Services Portal**.
 ![TEF-Health Portal Landing Page](img/portal-landing-page.png)
 
 ### Call Management Landing Page
-Browse to [https://tef.charite.de/odoo](https://tef.charite.de/odoo) and click on **Login with Keycloak** and enter your account credentials.
+Browse to [https://tef.charite.de/portal/home](https://tef.charite.de/portal/home) and click on **Login with Keycloak** and enter your account credentials.
 ![Call Management Login Page](img/call-management-login.png)
 
 
@@ -65,15 +69,15 @@ Jump to the Documentation of each User Role:
 The following notification types are configured for each user role.
 
 - 🔔 Call to Action  
-- ✅ Confirmation  
 - ℹ️ Information  
 - ❌ None  
 
-|  | Coordinator | Node Lead | Front Office Lead | Front Office Agent | Applicant | Reviewer |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Application (un)assigned: **Front Office Lead** | ℹ️ | 🔔 | 🔔 | ❌ | ✅ | ❌ |
-| Application (un)assigned: **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | ✅ | ❌ | ❌ |
-| Application (un)assigned: **Reviewers** | ℹ️ | ℹ️ | ℹ️ | ✅ | ✅  | 🔔 |
+|  | Coordinator | Node Lead | Front Office Lead | Front Office Agent | Applicant | Reviewer | Service Provider |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Application submitted | ℹ️ | ℹ️ | 🔔 | ❌ | ❌ | ❌ | ❌ |
+| Application (un)assigned to/from **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | 🔔 | ❌ | ❌ | ❌ |
+| Application (un)assigned to/from **Reviewers** | ℹ️ | ℹ️ | ℹ️ | 🔔 | ❌ | 🔔 | ❌ |
+| Matchmaking accepted | ℹ️ | ℹ️ | ℹ️ | ℹ️ | 🔔 | ❌ | 🔔 |
 
 
 ## Modules

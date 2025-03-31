@@ -4,6 +4,7 @@ Applicants **create, submit and manage** TEF-Health grant applications. After an
 
 
 ## Creating a New Application
+
 1. Navigate to the [Application Portal](https://tef.charite.de/portal/home) and click **Matchmaking Request**. ![Application Creation](img/application-step1.png)
 2. A Kanban board opens that indicates the stage of each Application created by the User. Click the button **NEW** to create a new Application. ![Application Creation Step 2](img/application-step2-kanban.png)
 3. The first part of the form allows to select a previous application in case you submitted an application before. Select the previous application in the field **Previous Application** to pre-fill the form with the information from this application. 
@@ -25,3 +26,12 @@ Clicking on the Info button opens the Service Description Card of the [Service C
 
 !!! info "Reusing old applications"
     When creating a new application, you can **pre-fill data** from previous applications. Select an existing application to reuse relevant details, reducing effort.
+
+!!! info "Application idea"
+    Reference applications via their id, which is displayed on the top of the application card. ![Application id](img/application-id.png)
+    
+    
+## Contract negotiations
+
+
+

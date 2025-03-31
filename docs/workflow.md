@@ -2,7 +2,7 @@
 
 ## Overview
 
-Below is an overview of the process from service offering to final reporting:
+Below is an overview of the call management process from service offering to final reporting:
 
 | **Step**                  | **Role**           | **Action**                                                             | **Outcome**                                              |
 |---------------------------|--------------------|------------------------------------------------------------------------|----------------------------------------------------------|
@@ -14,9 +14,15 @@ Below is an overview of the process from service offering to final reporting:
 | **6. Contracting**| Service Provider & Applicant   | Create an Offer to begin the contracting process via Contact Card and Chatter for negotiations | Contract signed |
 | **7. Service Provisioning** | Service Provider & Applicant            | Service Provider provides Service to Applicant           | Executed Service     |
 | **8. Compliance & Documentation** | Service Provider | Enter final pricing details, document compliance, and prepare invoices | Fulfillment of legal and State Aid requirements          |
+| **9. Reporting** | Front Office Agent | Evaluate Service Provisioning | Post-provisioning Report  |
 
 
 ## Call cycles
 
-Calls can consist of several cycles, in order to add, update, or remove Service Offerings during the course of a running Call. When Services have been changed a difference logger tracks and displays all changes and increases the “Cycle” counter by 1. Other changes are also tracked (like the deadline or Nodes included) but this does not affect the Cycle.
+To ensure transparent traceability of the Call history, Calls can consist of several cycles. A cycle allows to add, update, or remove Service Offerings during the course of a running Call. After a Call Cycle configuration has been created and approved by Coordinator, Node Leads and Service Providers, a fixed snapshot of the list of Services that are included in the Call is automatically created and attached to the Call. 
+
 ![Workflow Cycles](img/workflow-cycles.png)
+
+When Services have been changed, a difference logger tracks and displays all changes and increases the “Cycle” counter by 1. Other changes are also tracked (like the deadline or Nodes included) but this does not affect the Cycle.
+
+

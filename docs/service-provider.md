@@ -14,7 +14,7 @@ Service Providers **manage** their services, **review and negotiate applications
 
 
 ## Service Provider Dashboard
-The Service Provider Dashboard can be accessed via the URL [https://tef.charite.de/portal/service_management](https://tef.charite.de/portal/service_management) or by clicking on the corresponding item in the left-hand menu. Via the Dashboard Service Providers can manage [Service Offerings](#service-offering-management), [Call Participation](#call-participation) [Service Requests](#service-request-management) and [Service Provisions](#service-provision-management).
+The Service Provider Dashboard can be accessed via the URL [https://tef.charite.de/portal/service_management](https://tef.charite.de/portal/service_management) or by clicking on the corresponding item in the left-hand menu. Via the Dashboard Service Providers can manage [Service Offerings](#service-offering-management), [Call Participation](#call-participation-management), [Service Requests](#service-request-management) and [Service Provisions](#service-provision-management).
 
 ![Service Provider Dashboard](img/service-provider-dashboard.png)
 
@@ -35,11 +35,11 @@ Click on the button **Edit** in the opening window to change details of the offe
 
 ### Service Request Management
 
-By clicking on **Go to Service Requests** on the Service Provider Dashboard, Service Providers are presented with an overview of all reviewed applications for their services. Applications are sorted by the Reviewer Score for quick reference.Despite the ranking, Service Providers may choose to negotiate based on other factors. 
+By clicking on **Go to Service Requests** on the Service Provider Dashboard, Service Providers are presented with an overview of all reviewed applications for their services. Applications are sorted by the Reviewer Score for quick reference. Despite the ranking, Service Providers may choose to negotiate based on other factors. 
 
 ![Service Requests](img/service-provider-requests.png)
 
-By clicking on the button **View** next to an Application, Service Providers can access the application details. On the opening card Service Providers can evaluate the application details and confirm a match by clicking the button **Accept Request and Proceed with Contracting**.
+By clicking on the button **View** next to an Application, Service Providers can access the application details. On the opening card Service Providers can evaluate the application details and confirm a match by clicking the button **Accept Request and Proceed with Contracting**. By confirming a match, Service Providers signal to the Applicant that they are open to start contract negotiations.
 
 ![Service Requests](img/service-provider-requests-2.png)
 
