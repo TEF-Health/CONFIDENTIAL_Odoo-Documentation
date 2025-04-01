@@ -4,7 +4,6 @@ Front Offices
 
 - **handle incoming applications**   
 - **assign reviewers**   
-- **monitor matchmakings**  
 - and **write reports on service provisioning**.
 
 !!! warning "Signed Joint Controllership Agreement"
@@ -102,11 +101,6 @@ Upon receiving a new Application the agent should:
   If a conflict is detected, decline the assignment immediately by clicking the button **Decline Assignment**.
   
 
-!!! info "Additional Services"
-    Front Office Agents have the ability to add additional Services to an Application. To add additional Services, click on **Add a Line** at the field **Required TEF-Health Services** and select the checkboxes of the Services in the opening overlay. Confirm by clicking **Select**. ![Additional Services](img/front-office-additional-services.png)
-
-
-
 ### Step 3: Reviewer Assigned
 
 Front Office Agents must assign **two reviewers** from the Reviewers group.  
@@ -130,10 +124,9 @@ To assign Reviewers, perform the following steps:
 3. Click on the **Save** button to save the change. ![Assign Reviewers](img/front-office-agent-assign-reviewers.png)
 4. If, after two completed reviews, the value in the field **Evaluation Score Standard Deviation** is larger than 4, assign a third reviewer and click on save. ![Assign Third reviewer](img/front-office-agent-assign-reviewers-third.png)
 
-### Step 4: Completed Review and Matchmaking
+### Step 4: Completed Review
 
-#### Actions by Front Office Agent
-When a Service Provider accepted a Matchmaking request, the corresponding Kanban card turns Green. 
+When a Service Provider accepted a request, the corresponding Kanban card turns Green. 
 
 ![Match confirmed by Service Provider](img/front-office-match-confirmed.png)
 
