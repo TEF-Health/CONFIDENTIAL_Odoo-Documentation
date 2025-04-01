@@ -10,9 +10,9 @@ The Coordinator
 !!! warning "Signed Joint Controllership Agreement"
     The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.
 
-## Access Requests
+## Managing Access
 
-### Request by user
+### Access request by user
 
 When users [request higher roles](permissions.md) the Coordinator receives a notification. The Coordinator confirms or denies the requested user role, ensuring the user has appropriate access to the platform's features.
 
@@ -23,14 +23,8 @@ When users [request higher roles](permissions.md) the Coordinator receives a not
 
 In addition to requests initiated by the user, the Coordinator can invite users to higher roles.
 
-TBD 
 
-1. ...
-2. ...
-3. ...
-
-
-## Reviewers
+## Reviewer Onboarding
 
 A contract is formed between each Reviewer and TEF-Health coordinator Charité. The Coordinator grants the role **Reviewer** after confirming that the contract was signed.
 
@@ -41,7 +35,7 @@ A contract is formed between each Reviewer and TEF-Health coordinator Charité. 
 2. Click on a list item to open the details of a Reviewer request. Review the Expertise Assessment and the uploaded and signed Contract. Click **Change to Reviewer** to approve the request. ![Reviewer Management](img/coordinator-approve-reviewer.png)  
 
 
-## Applications
+## Application Review and Confirmation
 
 After Reviewers provided scores for an application, the Coordinator confirms the matchmaking, allowing Applicants and Service Providers to commence contract negotiations.
 
@@ -50,10 +44,9 @@ After Reviewers provided scores for an application, the Coordinator confirms the
 3. Retract Matchmakings by clicking on **Retract from Matchmaking** on the list items under the section **Matchmaking**.
 
 
-## Calls
+## Starting Calls
 
 The Coordinator initiates new calls.
-
 
 1. Open the **Calls** view of the Coordinator Dashboard by clicking on the button **TEF Coordinator** in the left-hand menu and then on **Calls** in the top navigation bar. ![Applications Matchmaking](img/coordinator-calls.png)  
 2. Start a new call by clicking on the button **New** ![New Call](img/coordinator-calls-new.png)      
@@ -70,6 +63,13 @@ The Coordinator initiates new calls.
     - Participating Services Approval: Confirmation by Service Providers after Node Leaders' approval.   
 
 4. Modify existing Call records by clicking on a Call, changing the information and clicking on Save (cloud icon) near the top.
+
+
+## Front Office Team Management
+
+The Coordinator can view and edit Front-Office Teams via the view **Front Office Teams** at the top navigation bar.
+
+![Front Office Team Management](img/coordinator-front-office-teams.png) 
 
 
 ## Additional Permissions
