@@ -4,11 +4,38 @@ Via the **TEF-Health Helpdesk** users open **Support Tickets** and interact with
 
 ## Accessing the TEF Helpdesk
 To access the Helpdesk, visit 
-[https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk)
+[https://tef.charite.de/platform/helpdesk](https://tef.charite.de/platform/helpdesk)
 ![Ticket Submission](img/helpdesk-0.png)
 
 
+## Helpdesk Topics
+
+### TEF-Health Helpdesk
+
+- Ethics &  Legal
+- Calls & Applications
+- Certification
+- Standards
+- TEF general
+- TEF Nodes
+- Education
+- TEF Internal
+
+### CoordinaTEF Helpdesk
+
+
 ## Submitting a Ticket
+
+### Via Email
+
+1. Write an email with your request to **helpdesk@tefhealth.eu**.
+2. You will receive an email with a link to the new ticket on the TEF-Health Platform.
+3. You can reply to responses either via email or via the TEF-Health Platform.
+
+
+
+### Via TEF-Health Platform
+
 1. Navigate to the Helpdesk.  
    ![Ticket Submission](img/helpdesk-1.png)
 2. Click on **"New"**.  
