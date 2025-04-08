@@ -15,7 +15,7 @@ nav:
     - Service Provider: service-provider.md
     - Reviewer: reviewer.md
     - Front Office: front-office.md
-    - Node Lead: node-lead.md
+    - Node Leader: node-leader.md
     - Coordinator: coordinator.md
   - Modules:
     - Service Catalogue: service-catalogue.md

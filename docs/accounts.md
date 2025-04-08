@@ -56,6 +56,15 @@ After submitting the form, you will receive a verification email. Follow the ins
 
 - Congratulations, you are now logged into the TEF-Health platform. Please note that users are automatically logged out after 10 minutes of inactivity.
 
+!!! warning "Correct institution"
+    By clicking on your account icon (top right) and then **Preferences** you can check whether the correct institution was assigned. This is important to ensure that you can be assigned to the correct teams. 
+    ![My Account](img/account-my-account.png)
+    ![My Account](img/account-my-account-2.png)
+    
+    
+
+
+
 ### (Optional) Step 5: Requesting additional permissions
 Your account is assigned the "Applicant" role by default. See the [next chapter](permissions.md) to request additional permissions beyond the default "Applicant" role.
 

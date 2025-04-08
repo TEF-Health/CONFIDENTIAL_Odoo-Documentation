@@ -35,13 +35,13 @@ Jump to the Documentation of each User Role:
 * [Service Provider](service-provider.md) - Manage Service Provisions and Catalogue entries
 * [Reviewer](reviewer.md) - Review Applications
 * [Front Office](front-office.md) - Support for Applications
-* [Node Lead](node-lead.md) - Participate in Calls
+* [Node Leader](node-leader.md) - Participate in Calls
 * [Coordinator](coordinator.md) - Coordinate the project
 
 
 ## Permission matrix
 
-| **Role Permissions**                            | Admin                | Coordinator     | Node Lead      | Front Office<br>Team Lead  | Front Office<br>Agent | Reviewer   | Potential<br>Reviewer | Service<br>Provider| Applicant   | Helpdesk Agent |
+| **Role Permissions**                            | Admin                | Coordinator     | Node Leader      | Front Office<br>Team Lead  | Front Office<br>Agent | Reviewer   | Potential<br>Reviewer | Service<br>Provider| Applicant   | Helpdesk Agent |
 | :----------------------------------------------:| :----------------:   | :-----------:   | :---------:    | :----------------------:   | :------------------:  | :--------: | :------------------:  | :----------------: | :---------: |:------------:  |
 | Start a Call                                    |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |                |
 | Grant Roles                                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
@@ -72,7 +72,7 @@ The following notification types are configured for each user role.
 - ℹ️ Information  
 - ❌ None  
 
-|  | Coordinator | Node Lead | Front Office Lead | Front Office Agent | Applicant | Reviewer | Service Provider |
+|  | Coordinator | Node Leader | Front Office Lead | Front Office Agent | Applicant | Reviewer | Service Provider |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Application submitted | ℹ️ | ℹ️ | 🔔 | ❌ | ❌ | ❌ | ❌ |
 | Application (un)assigned to/from **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | 🔔 | ❌ | ❌ | ❌ |

@@ -8,3 +8,8 @@ Using Helm the following actions were automated
 - setting of Odoo proxy
 - installation of Python packages (auth-oidc)
 - pulling and installation of the TEF-Health Modules
+
+
+## Helpdesk routing
+
+![Helpdesk Routign](img/helpdesk_routing_sankey.png)

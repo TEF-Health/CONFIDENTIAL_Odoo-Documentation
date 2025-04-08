@@ -1,6 +1,6 @@
-# Node Lead Guide
+# Node Leader Guide
 
-Node Leads  
+Node Leaders  
 
 - **review and approve new Calls** created by the Coordinator, confirming that applications  
 - **confirm that the Call will run in their country (or countries)** and **Applications are handled** by the Node's Front Office Team; some Nodes (e.g., the Swedish Node) may cover additional countries (such as Norway)  
@@ -20,10 +20,10 @@ Node Leads
 
 ## Reviewing and Approving Call Participation
 
-- **Node Leads receive notifications** when a new Call Draft was created by the Coordinator.  
-- To **review and update** Call Details, Node Leads **click on a call entry** on the Dashboard.  
-- In the Call Details View, Node Leads are presented with a list of Services that have been approved by Service Providers to participate in the Call.  
-- Node Leads confirm Call participation by clicking "**I agree that services of the node I am representing are included in the selected call**". Node Leads receive a confirmation email that their Node participates in the Call.
+- **Node Leaders receive notifications** when a new Call Draft was created by the Coordinator.  
+- To **review and update** Call Details, Node Leaders **click on a call entry** on the Dashboard.  
+- In the Call Details View, Node Leaders are presented with a list of Services that have been approved by Service Providers to participate in the Call.  
+- Node Leaders confirm Call participation by clicking "**I agree that services of the node I am representing are included in the selected call**". Node Leaders receive a confirmation email that their Node participates in the Call.
 
 ![Update Services](img/node-lead-2.png)
 
