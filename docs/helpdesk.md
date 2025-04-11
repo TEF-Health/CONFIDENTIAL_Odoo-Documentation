@@ -22,9 +22,6 @@ Helpdesk Agents
 - **Reply to tickets** via the chatter, triggering notifications.  
 - Mark tickets as **Resolved** when an issue is fixed.  
   
-### Helpdesk Teams
-
-**Helpdesk Agents** form **Helpdesk Teams** that address different **Categories of Support Requests** and that are led by **TEF-Helpdesk Leads**. For example, the team **TEF Legal Helpdesk Team** addressing questions from Service Providers.
 
 ### TEF-Helpdesk Leads
 
@@ -34,6 +31,11 @@ TEF-Helpdesk Leads
 - **Review submitted tickets and responses**. 
 - **Assign tickets** to TEF Helpdesk Agents of their Team.  
 - **Define Support Categories** and **Add Groups to Categories**
+
+
+### Helpdesk Teams
+
+**Helpdesk Agents** form **Helpdesk Teams** that address different **Categories of Support Requests** and that are led by **TEF-Helpdesk Leads**. For example, the team **TEF Legal Helpdesk Team** addressing questions from Service Providers.
 
 
 ## Accessing the Helpdesk
