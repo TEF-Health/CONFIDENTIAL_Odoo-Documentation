@@ -2,7 +2,7 @@
 
 Via the **TEF-Health Helpdesk** users submit **Support Requests** and interact with **Helpdesk Agents**. 
 
-## Helpdesk Roles
+## Helpdesk Roles and Groups
 
 The following Helpdesk Roles exist:
 
@@ -38,10 +38,22 @@ TEF-Helpdesk Leads
 
 ## Accessing the Helpdesk
 
-1. To access the Helpdesk, browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk).
+### To submit tickets
+
+1. Browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk).
 2. Alternatively, browse to [https://tef.charite.de](https://tef.charite.de) and click on **Helpdesk**. ![Helpdesk Access](img/helpdesk-access.png)
 
-## Requesting Support
+### To manage and answer tickets
+
+1. Browse to [https://tef.charite.de](https://tef.charite.de).
+2. Click on **TEF Services Portal** to enter the portal.
+3. Click on the button **Helpdesk** in the left-hand menu.
+!!! info "Legal Helpdesk"
+    The Legal Helpdesk is a dedicated Helpdesk and accessed via the button **Legal Helpdesk** in the left-hand menu.
+    
+![Access Helpdesk](img/helpdesk-accessing.png)
+
+## Submitting tickets
 
 ### Via Public Helpdesk
 
@@ -127,6 +139,7 @@ TEF-Helpdesk Leads can also define Disclaimers that are presented when selecting
 
 1. Open the **Helpdesk** from the left-hand menu and then click on **Categories** in the top navigation bar. ![Ticket Categories Open](img/helpdesk-categories-open.png)
 2. Creat a new Category by clicking on the button **New** or open an existing Category by clicking on the corresponding row. ![Ticket Categories Open](img/helpdesk-category-item.png)
+3. Click into the field **Disclaimer** to add a Disclaimer text.
 3. Click on the dropdown menu at **Responsible Group** to add the Category to a team.
 4. Define the Groups to which the Category is visible by clicking on **Add a line**.
 5. Save changes by clicking on the cloud symbol at the top or discard by clicking the cross.
