@@ -43,7 +43,7 @@ Jump to the Documentation of each User Role:
 
 | **Role Permissions**                            | Admin                | Coordinator     | Node Leader      | Front Office<br>Team Lead  | Front Office<br>Agent | Reviewer   | Potential<br>Reviewer | Service<br>Provider| Applicant   | Helpdesk Agent |
 | :----------------------------------------------:| :----------------:   | :-----------:   | :---------:    | :----------------------:   | :------------------:  | :--------: | :------------------:  | :----------------: | :---------: |:------------:  |
-| Start a Call                                    |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |                |
+| Start a Call                                    |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |       ❌       |
 | Grant Roles                                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | Invite User                                     |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
 | Invite User to assume Role                      |       ✅        	 |      ✅      	 |    ❌       	|          ❌             	 |         ❌          	 |     ❌     |          ❌          |        ❌          |     ❌      |  ❌            |
@@ -72,12 +72,14 @@ The following notification types are configured for each user role.
 - ℹ️ Information  
 - ❌ None  
 
-|  | Coordinator | Node Leader | Front Office Lead | Front Office Agent | Applicant | Reviewer | Service Provider |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Application submitted | ℹ️ | ℹ️ | 🔔 | ❌ | ❌ | ❌ | ❌ |
-| Application (un)assigned to/from **Front Office Agent** | ℹ️ | ℹ️ | 🔔 | 🔔 | ❌ | ❌ | ❌ |
-| Application (un)assigned to/from **Reviewers** | ℹ️ | ℹ️ | ℹ️ | 🔔 | ❌ | 🔔 | ❌ |
-| Matchmaking accepted | ℹ️ | ℹ️ | ℹ️ | ℹ️ | 🔔 | ❌ | 🔔 |
+|                                                         | Coordinator | Node Leader | Front Office Lead | Front Office Agent | Applicant | Reviewer | Service Provider | Helpdesk Agent |
+| ------------------------------------------------------- | ----------- | ----------- | ----------------- | ------------------ | --------- | -------- | ---------------- | -------------- |
+| Application submitted                                   | ℹ️          | ℹ️          | 🔔                | ❌                  | ❌         | ❌        | ❌                | ❌              |
+| Application (un)assigned to/from **Front Office Agent** | ℹ️          | ℹ️          | 🔔                | 🔔                 | ❌         | ❌        | ❌                | ❌              |
+| Application (un)assigned to/from **Reviewers**          | ℹ️          | ℹ️          | ℹ️                | 🔔                 | ❌         | 🔔       | ❌                | ❌              |
+| Matchmaking accepted                                    | ℹ️          | ℹ️          | ℹ️                | ℹ️                 | 🔔        | ❌        | 🔔               | ❌              |
+| Support ticket created or updated                       | ℹ️          | ❌          | ❌                | ❌                 | ❌        | ❌        | ❌               | 🔔             |
+
 
 
 ## Modules

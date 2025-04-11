@@ -5,13 +5,13 @@ Users can request **additional permissions** beyond the base Applicant role. Use
 !!! warning "Signed Joint Controllership Agreement"
     Roles that involve the processing of personal data by TEF-Health Consortium Partners are only granted after the Joint Controllership Agreement has been signed by the corresponding Partner, both in physical and digital formats.
     
-!!! info "Quickstart (Front Office and Node Staff)"
+!!! info "Quickstart (Helpdesk, Front Office and Node Staff)"
     Browse to [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request) and complete the form. In certain cases, you may receive invitations to upgrade your role by an authorized user. Follow the steps in the invitation email to assume the higher role.
     
 !!! info "Quickstart (Reviewers)"
     Reviewers undergo a dedicated onboarding procedure. Browse to [https://tef.charite.de/portal/reviewer/onboarding](https://tef.charite.de/portal/reviewer/onboarding) and complete the form.
 
-## Step by step (Front Office and Node Staff)
+## Step by step (Helpdesk, Front Office and Node Staff)
 
 ### Step 1: Browse to Permission Request Page
 
