@@ -2,6 +2,9 @@
 
 Applicants can submit **Support Requests** and interact with **TEF-Health Helpdesk Agents** via the **TEF-Health Helpdesk**.
 
+!!! warning "Confidential Information"
+    Please **do not provide confidential information** in Support Requests.
+
 ## Accessing the Helpdesk
 
 1. Browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk).
