@@ -8,20 +8,21 @@ nav:
   - Getting Started: 
     - Creating a User Account: accounts.md
     - Requesting Permissions: permissions.md
-    - Call Workflow: workflow.md
-  - User Roles:
     - Helpdesk: helpdesk.md
-    - Applicant: applicant.md
+  - Applicant Guide: applicant.md
+  - Internal documentation:
+    - Call Workflow: workflow.md
+    - Helpdesk (Internal): helpdesk-internal.md
     - Service Provider: service-provider.md
     - Reviewer: reviewer.md
     - Front Office: front-office.md
     - Node Leader: node-leader.md
     - Coordinator: coordinator.md
-  - Modules:
-    - Service Catalogue: service-catalogue.md
-  - Technical Documentation:
-    - Deployment: technical-documentation.md
-    - Consent: consents.md
+    - Modules:
+      - Service Catalogue: service-catalogue.md
+    - Technical Documentation:
+      - Deployment: technical-documentation.md
+      - Consent: consents.md
 markdown_extensions:
   - attr_list
   - tables
