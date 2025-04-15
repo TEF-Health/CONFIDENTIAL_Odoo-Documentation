@@ -1,6 +1,6 @@
 # Helpdesk Guide
 
-Via the **TEF-Health Helpdesk** users submit **Support Requests** and interact with **Helpdesk Agents**. 
+Applicants can submit **Support Requests** and interact with **TEF-Health Helpdesk Agents** via the **TEF-Health Helpdesk**.
 
 ## Accessing the Helpdesk
 

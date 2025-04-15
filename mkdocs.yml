@@ -10,6 +10,7 @@ nav:
     - Requesting Permissions: permissions.md
     - Helpdesk: helpdesk.md
   - Applicant Guide: applicant.md
+  - Service Catalogue: service-catalogue.md
   - Internal documentation:
     - Call Workflow: workflow.md
     - Helpdesk (Internal): helpdesk-internal.md
@@ -18,11 +19,6 @@ nav:
     - Front Office: front-office.md
     - Node Leader: node-leader.md
     - Coordinator: coordinator.md
-    - Modules:
-      - Service Catalogue: service-catalogue.md
-    - Technical Documentation:
-      - Deployment: technical-documentation.md
-      - Consent: consents.md
 markdown_extensions:
   - attr_list
   - tables
