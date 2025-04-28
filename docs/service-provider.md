@@ -1,30 +1,40 @@
 # Service Provider Guide
 
-Service Providers **manage** their services, **review and negotiate applications**, and **ensure full compliance** with legal and State Aid requirements.
+Service Providers **manage** their service offerings in the [TEF-Health Service Catalogue](service-catalogue.md), **review and negotiate applications**, and **ensure full compliance** with legal and State Aid requirements.
 
 !!! tip "Key Aspects"
     - **Service Providers** offer services to SMEs via the **Service Catalogue**.
-    - SMEs apply for discounts using the **Applicant** role.
-    - Service Providers must agree to offer their Services in particular TEF-Health Calls.
+    - SMEs (Applicants) apply for discounts.
+    - Service Providers need to confirm that they wish to offer their Services in particular TEF-Health Calls.
     - **Reviewers** evaluate each application and provide a score.
-    - Once approved by the **Coordinator**, Service Providers initiate contracting by creating an **Offer**.
+    - Once an application was reviewed, Service Providers can initiate contracting by creating an **Offer**, following approval by the **Coordinator**, 
     - A **Chatter** interface enables contract negotiation and communication.
     - **Ranking:** Applications are ranked by Score, yet Service Providers retain the freedom to select applications as they see fit.
-    - Compliance with State Aid, eligibility criteria, and legal regulations is enforced through comprehensive documentation and record-keeping.
+    - Compliance with State Aid, eligibility criteria, and legal regulations must be demonstrated through comprehensive documentation and record-keeping.
 
 
-## Service Provider Dashboard
-The Service Provider Dashboard can be accessed via the URL [https://tef.charite.de/portal/service_management](https://tef.charite.de/portal/service_management) or by clicking on the corresponding item in the left-hand menu. Via the Dashboard Service Providers can manage [Service Offerings](#service-offering-management), [Call Participation](#call-participation-management), [Service Requests](#service-request-management) and [Service Provisions](#service-provision-management).
+## Service Management Dashboard
+The Service Management Dashboard can be accessed via the URL [https://tef.charite.de/portal/service_management](https://tef.charite.de/portal/service_management) or by clicking on the corresponding item in the left-hand menu. 
+
+![Service Dashboard](img/service-provider-access.png)
+
+Via the Dashboard Service Providers can manage [Service Offerings](#service-offering-management), [Call Participation](#call-participation-management), [Service Requests](#service-request-management) and [Service Provisions](#service-provision-management).
 
 ![Service Provider Dashboard](img/service-provider-dashboard.png)
 
 
-### Service Offering Management
+### Adding a Service Offering to the Catalogue
 
-By clicking on **My Services** on the Service Provider Dashboard, Service Providers can **View** and **Edit** their Service Offerings. Click on the button **View** next to a list entry to view details. 
-![Service Offering Management 1](img/service-provider-offerings-1.png)
-Click on the button **Edit** in the opening window to change details of the offering.
-![Service Offering Management 1](img/service-provider-offerings-2.png)
+1. In the Service Management Dashboard, click on **Add Service**.
+2. Fill out the opening form and click on **Submit Service**.
+
+![Add Service](img/service-provider-add-service.png)
+
+### Viewing and Editing Service Offerings
+
+1. In the Service Management Dashboard, click on **Go to Services**. The list of Services offered by your organization opens. ![View Services](img/service-provider-overview.png)
+2. Click on the button **View** next to a list entry to view details. ![View Services](img/service-provider-view.png)
+3. Click on the button **Edit** to change details of the offering and confirm the changes by clicking **Update Service**. ![Edit Service](img/service-provider-edit.png)
 
 
 ### Call Participation Management

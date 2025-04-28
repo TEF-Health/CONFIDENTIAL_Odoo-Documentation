@@ -19,6 +19,7 @@ nav:
     - Front Office: front-office.md
     - Node Leader: node-leader.md
     - Coordinator: coordinator.md
+    - Admin: admin.md
 markdown_extensions:
   - attr_list
   - tables
