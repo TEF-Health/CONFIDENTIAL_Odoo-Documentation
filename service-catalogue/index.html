@@ -627,6 +627,28 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -721,7 +743,17 @@
 Clicking on a list item opens a card with details of the Service.
 <img alt="Service Catalogue Card" src="../img/service-catalogue-view-card.png" /></p>
 <h3 id="import-of-source-of-truth-excel">Import of Source of Truth Excel</h3>
-<p>All services are imported from a minimally processed version of the <a href="https://github.com/TEF-Health/CONFIDENTIAL-Service-Catalogue/blob/main/TEF-Health-Service-Catalogue-latest.xlsx">TEF-Health-Service-Catalogue-latest.xlsx</a>.</p>
+<p>Services are imported from a minimally processed version of the <a href="https://github.com/TEF-Health/CONFIDENTIAL-Service-Catalogue/blob/main/TEF-Health-Service-Catalogue-latest.xlsx">TEF-Health-Service-Catalogue-latest.xlsx</a></p>
+<ol>
+<li>Download the Excel from GitHub and apply <a href="https://github.com/TEF-Health/CONFIDENTIAL_Odoo-modules/blob/main/code/import_ServiceCatalogueExcel.py">this script</a> to clean and re-format the Excel to be compatible with the Odoo data model.   </li>
+<li>Click on <strong>TEF Services</strong> in the left-hand menu to open the Services portal.</li>
+<li>Click on <strong>Import Service</strong> in the top navigation bar and the select the output Excel file from step 2 for upload.</li>
+</ol>
+<p><img alt="Service Catalogue Import" src="../img/service-catalogue-import.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Curator name</p>
+<p>The Curator of each Service is specified in column A. Until a user with the corresponding name logged-in, the displayed name is ADMINISTRATOR.</p>
+</div>
 <h3 id="service-form-adding-editing-and-removing-services">Service Form: adding, editing and removing Services</h3>
 <p>The Service Catalogue can be updated with a form that matches <a href="https://forms.office.com/e/Ndtm3PtavB">the previous one</a>. Batch-updates of Services can be imported as Excel spreadsheets.</p>
 <h3 id="application-shortcut">Application shortcut</h3>
