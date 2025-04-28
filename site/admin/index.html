@@ -12,13 +12,13 @@
         <meta name="author" content="TEF-Health Work Package 1: Petra Ritter, Michael Schirner, Marc Sacks, Leon Martin, Rico Schmitt">
       
       
-        <link rel="canonical" href="http://127.0.0.1:8000/coordinator/">
+        <link rel="canonical" href="http://127.0.0.1:8000/admin/">
       
       
-        <link rel="prev" href="../node-leader/">
+        <link rel="prev" href="../coordinator/">
       
       
-        <link rel="next" href="../admin/">
+        <link rel="next" href="../csv-export/">
       
       
       <link rel="icon" href="../img/tefhires3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Coordinator - TEF-Health Call Management</title>
+        <title>Admin - TEF-Health Call Management</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#coordinator-guide" class="md-skip">
+        <a href="#admin-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Coordinator
+              Admin
             
           </span>
         </div>
@@ -364,19 +364,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -391,7 +389,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Internal documentation
@@ -534,6 +532,73 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../coordinator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coordinator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Administrative
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Administrative
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
     
   
   
@@ -550,7 +615,7 @@
           
   
   <span class="md-ellipsis">
-    Coordinator
+    Admin
     
   </span>
   
@@ -562,7 +627,7 @@
         
   
   <span class="md-ellipsis">
-    Coordinator
+    Admin
     
   </span>
   
@@ -585,115 +650,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#managing-access" class="md-nav__link">
+  <a href="#permission-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Managing Access
+      Permission Management
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Managing Access">
+    <nav class="md-nav" aria-label="Permission Management">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#access-request-by-user" class="md-nav__link">
+  <a href="#csv-export" class="md-nav__link">
     <span class="md-ellipsis">
-      Access request by user
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#invitation-by-coordinator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Invitation by Coordinator
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reviewer-onboarding" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reviewer Onboarding
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#application-review-and-confirmation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Application Review and Confirmation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#starting-calls" class="md-nav__link">
-    <span class="md-ellipsis">
-      Starting Calls
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#front-office-team-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Front Office Team Management
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-permissions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Additional Permissions
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Additional Permissions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#matchmaking-monitoring" class="md-nav__link">
-    <span class="md-ellipsis">
-      Matchmaking Monitoring
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#service-catalogue-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Service Catalogue Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#helpdesk-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Helpdesk Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#application-oversight" class="md-nav__link">
-    <span class="md-ellipsis">
-      Application Oversight
+      CSV Export
     </span>
   </a>
   
@@ -708,71 +677,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Administrative
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            Administrative
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../admin/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Admin
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -834,115 +738,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#managing-access" class="md-nav__link">
+  <a href="#permission-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Managing Access
+      Permission Management
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Managing Access">
+    <nav class="md-nav" aria-label="Permission Management">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#access-request-by-user" class="md-nav__link">
+  <a href="#csv-export" class="md-nav__link">
     <span class="md-ellipsis">
-      Access request by user
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#invitation-by-coordinator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Invitation by Coordinator
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reviewer-onboarding" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reviewer Onboarding
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#application-review-and-confirmation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Application Review and Confirmation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#starting-calls" class="md-nav__link">
-    <span class="md-ellipsis">
-      Starting Calls
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#front-office-team-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Front Office Team Management
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-permissions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Additional Permissions
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Additional Permissions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#matchmaking-monitoring" class="md-nav__link">
-    <span class="md-ellipsis">
-      Matchmaking Monitoring
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#service-catalogue-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Service Catalogue Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#helpdesk-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Helpdesk Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#application-oversight" class="md-nav__link">
-    <span class="md-ellipsis">
-      Application Oversight
+      CSV Export
     </span>
   </a>
   
@@ -969,91 +777,19 @@
 
 
 
-<h1 id="coordinator-guide">Coordinator Guide</h1>
-<p>The Coordinator </p>
-<ul>
-<li><strong>handles access requests</strong> for higher roles  </li>
-<li><strong>starts calls</strong>.</li>
-<li><strong>adds or removes Reviewers</strong> to the reviewer database   </li>
-<li>and <strong>approves and monitors matchmakings</strong>.</li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Signed Joint Controllership Agreement</p>
-<p>The processing of personal data can only commence after the Joint Controllership Agreement has been signed, both in physical and digital formats.</p>
-</div>
-<h2 id="managing-access">Managing Access</h2>
-<h3 id="access-request-by-user">Access request by user</h3>
-<p>When users <a href="../permissions/">request higher roles</a> the Coordinator receives a notification. The Coordinator confirms or denies the requested user role, ensuring the user has appropriate access to the platform's features.</p>
-<ol>
-<li>Open the <strong>Access Request</strong> view of the Coordinator Dashboard by clicking on the button <strong>TEF Coordinator</strong> in the left-hand menu and then on <strong>Access Requests</strong> in the top navigation bar. <img alt="Dashboard" src="../img/coordinator-dashboard.png" />   </li>
-<li>Review the user information (1) and the requested role (2). Click <strong>Approve</strong> or <strong>Reject</strong> to grant or reject the requested role. The field <em>State</em> and the color of the line change depending on the status of the user. <img alt="Role Management" src="../img/coordinator-access-requests.png" />   </li>
-</ol>
-<h3 id="invitation-by-coordinator">Invitation by Coordinator</h3>
-<p>In addition to requests initiated by the user, the Coordinator can invite users to higher roles.</p>
-<h2 id="reviewer-onboarding">Reviewer Onboarding</h2>
-<p>A contract is formed between each Reviewer and TEF-Health coordinator Charité. The Coordinator grants the role <strong>Reviewer</strong> after confirming that the contract was signed.</p>
-<div class="admonition note">
-<p class="admonition-title">Reviewer Contract</p>
-<p>Only after the Reviewer Contract has been countersigned by a Charité legal representative, the user is added to the <strong>Reviewers Database</strong>. While the request is pending, the user will get the role <strong>Potential Reviewer</strong>.</p>
+<h1 id="admin-guide">Admin Guide</h1>
+<h2 id="permission-management">Permission Management</h2>
+<h3 id="csv-export">CSV Export</h3>
+<p>Admins can grant users to download the entire Odoo record as CSV.</p>
+<div class="admonition danger">
+<p class="admonition-title">Access to confidential information</p>
+<p>The CSV export permission may only be granted to authorized users as it gives access to the full Odoo data record.</p>
 </div>
 <ol>
-<li>Open the <strong>Reviewers</strong> view of the Coordinator Dashboard by clicking on the button <strong>TEF Coordinator</strong> in the left-hand menu and then on <strong>Reviewers</strong> in the top navigation bar. <img alt="Reviewer Management" src="../img/coordinator-reviewers.png" />   </li>
-<li>Click on a list item to open the details of a Reviewer request. Review the Expertise Assessment and the uploaded and signed Contract. Click <strong>Change to Reviewer</strong> to approve the request. <img alt="Reviewer Management" src="../img/coordinator-approve-reviewer.png" />  </li>
+<li>Activate Developer Mode by opening the General Settings page <a href="https://tef.charite.de/odoo/settings">https://tef.charite.de/odoo/settings</a>, scrolling to the bottom and clicking on <strong>Activate the developer mode</strong>.</li>
+<li>Open the User Settings Page <a href="https://tef.charite.de/odoo/users">https://tef.charite.de/odoo/users</a> and click on the user.</li>
+<li>In the tab <strong>Access Rights</strong> scroll to <strong>TECHNICAL</strong> and select <strong>Access to export feature</strong>.  <img alt="Export CSV" src="../img/admin-export-csv.png" /></li>
 </ol>
-<h2 id="application-review-and-confirmation">Application Review and Confirmation</h2>
-<p>After Reviewers provided scores for an application, the Coordinator confirms the matchmaking, allowing Applicants and Service Providers to commence contract negotiations.</p>
-<ol>
-<li>Open the <strong>Applications</strong> view of the Coordinator Dashboard by clicking on the button <strong>TEF Coordinator</strong> in the left-hand menu and then on <strong>Applications</strong> in the top navigation bar. <img alt="Applications Matchmaking" src="../img/coordinator-applications-matchmaking.png" />  </li>
-<li>Review the application information by clicking (1) on a list item under <strong>Completed Review</strong> to see all Application details. Click <strong>Approve for Matchmaking</strong> (2) to allow matchmaking. <img alt="Grant Match" src="../img/coordinator-approve-match.png" />    </li>
-<li>Retract Matchmakings by clicking on <strong>Retract from Matchmaking</strong> on the list items under the section <strong>Matchmaking</strong>.</li>
-</ol>
-<h2 id="starting-calls">Starting Calls</h2>
-<p>The Coordinator initiates new calls.</p>
-<ol>
-<li>Open the <strong>Calls</strong> view of the Coordinator Dashboard by clicking on the button <strong>TEF Coordinator</strong> in the left-hand menu and then on <strong>Calls</strong> in the top navigation bar. <img alt="Applications Matchmaking" src="../img/coordinator-calls.png" />  </li>
-<li>Start a new call by clicking on the button <strong>New</strong> <img alt="New Call" src="../img/coordinator-calls-new.png" />      </li>
-<li>
-<p>Fill out the required information for the call and click Save (the cloud icon) or on Discard (the cross) near the top. Upon clicking Save the Node Leads and Service Providers will receive the notification requesting their respective confirmations (Node Leads must confirm overall Call details, Service Providers must confirm the inclusion of their Services into the Call). <img alt="New Call" src="../img/coordinator-calls-new-info.png" /><br />
-<strong>Required Information to Start a Call:</strong></p>
-<ul>
-<li>Opening Date: When the call becomes active.</li>
-<li>Closing Date or Condition: E.g., target service provisions or total discount volume.</li>
-<li>Timelines for Internal Processes:<ul>
-<li>Application evaluation timeline.</li>
-<li>Call updates (e.g., adding nodes and services).</li>
-</ul>
-</li>
-<li>Evaluation Criteria: Standards for assessing applications.</li>
-<li>Participating Country Approval: Confirmation by Node Leaders upon call draft creation.</li>
-<li>Participating Services Approval: Confirmation by Service Providers after Node Leaders' approval.   </li>
-</ul>
-</li>
-<li>
-<p>Modify existing Call records by clicking on a Call, changing the information and clicking on Save (cloud icon) near the top.</p>
-</li>
-</ol>
-<h2 id="front-office-team-management">Front Office Team Management</h2>
-<p>The Coordinator can view and edit Front-Office Teams via the view <strong>Front Office Teams</strong> at the top navigation bar.</p>
-<p><img alt="Front Office Team Management" src="../img/coordinator-front-office-teams.png" /> </p>
-<h2 id="additional-permissions">Additional Permissions</h2>
-<h3 id="matchmaking-monitoring">Matchmaking Monitoring</h3>
-<p>TBD</p>
-<h3 id="service-catalogue-management">Service Catalogue Management</h3>
-<p>Coordinators can veto Service Catalogue updates by Service Providers.</p>
-<h3 id="helpdesk-management">Helpdesk Management</h3>
-<p>Coordinators can  </p>
-<ul>
-<li>View all helpdesk tickets,  </li>
-<li>Assign helpdesk agents to tickets,  </li>
-<li>Respond to helpdesk tickets as necessary.</li>
-</ul>
-<h3 id="application-oversight">Application Oversight</h3>
-<p>Coordinators can</p>
-<ul>
-<li>View all applications and reviews.</li>
-<li>Assign reviewers to applications.</li>
-<li>Reject applications if necessary.</li>
-</ul>
 
 
 

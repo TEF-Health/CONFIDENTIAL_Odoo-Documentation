@@ -19,7 +19,9 @@ nav:
     - Front Office: front-office.md
     - Node Leader: node-leader.md
     - Coordinator: coordinator.md
+  - Administrative:
     - Admin: admin.md
+    - CSV Export: csv-export.md
 markdown_extensions:
   - attr_list
   - tables
