@@ -1,4 +1,4 @@
-# Applicant Guide
+# Submitting an Application
 
 Applicants **create, submit and manage** TEF-Health grant applications. After an application has been [reviewed](reviewer.md) and a match confirmed by the [Service Provider](service-provider.md), Applicants can **communicate with Service Providers for contract negotiations**.
 

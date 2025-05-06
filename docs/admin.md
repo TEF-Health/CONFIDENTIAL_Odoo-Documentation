@@ -1,6 +1,4 @@
-# Admin Guide
-
-## Permission Management
+# Permission Management
 
 ### CSV Export
 

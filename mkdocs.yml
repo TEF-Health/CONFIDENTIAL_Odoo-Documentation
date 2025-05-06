@@ -4,14 +4,19 @@ site_description: "TEF-Health Documentation"
 site_author: "TEF-Health Work Package 1: Petra Ritter, Michael Schirner, Marc Sacks, Leon Martin, Rico Schmitt"
 copyright: "(c) 2025 TEF-Health Consortium"
 nav:
-  - Overview: index.md
-  - Getting Started: 
-    - Creating a User Account: accounts.md
-    - Requesting Permissions: permissions.md
-    - Helpdesk: helpdesk.md
-  - Applicant Guide: applicant.md
+  - Applicant Guide: 
+    - How it works:
+      - Call Process: overview.md
+      - Creating a User Account: accounts.md
+      - Submitting an Application: applicant.md
+      - Helpdesk: helpdesk.md
+    - TEF-Health Calls:
+      - Call 1—Portugal Services: call1.md
+      - Call 2—Mutli-EU Services: call2.md
   - Service Catalogue: service-catalogue.md
   - Internal documentation:
+    - Overview: index.md
+    - Requesting Permissions: permissions.md
     - Call Workflow: workflow.md
     - Helpdesk (Internal): helpdesk-internal.md
     - Service Provider: service-provider.md
@@ -20,8 +25,9 @@ nav:
     - Node Leader: node-leader.md
     - Coordinator: coordinator.md
     - Administrative:
-      - Admin: admin.md
+      - Permission Management: admin.md
       - CSV Export: csv-export.md
+      - Editing Service Catalogue: edit-sc.md
 markdown_extensions:
   - attr_list
   - tables
