@@ -10,6 +10,26 @@ Users can request **additional permissions** beyond the base Applicant role. Use
     
 !!! info "Quickstart (Reviewers)"
     Reviewers undergo a dedicated onboarding procedure. Browse to [https://tef.charite.de/portal/reviewer/onboarding](https://tef.charite.de/portal/reviewer/onboarding) and complete the form.
+    
+
+## Updating Account Settings
+
+To manage account settings, click the user icon (top right) and select Preferences from the dropdown menu.
+![Account Preferences](img/account-management.png)
+
+In the Preferences tab, you can:
+
+- Configure whether you wish to receive **email** or **Odoo platform notifications**.  
+- Update your **email address**, **country**, and **institution**.  (the TEF-Health Node will be set automatically based on the institution)
+
+![Account Preferences](img/account-settings.png) 
+ 
+- Click **Save** to ensure changes are retained.  
+
+!!! warning "Correct institution"
+    By clicking on your account icon (top right) and then **Preferences** you can check whether the correct institution was assigned. This is important to ensure that you can be assigned to the correct teams. 
+    ![My Account](img/account-my-account.png)
+    ![My Account](img/account-my-account-2.png)
 
 ## Step by step (Helpdesk, Front Office and Node Staff)
 
