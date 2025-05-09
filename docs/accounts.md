@@ -1,28 +1,10 @@
 # Creating a User Account
 
-This section explains how to obtain an account on the TEF-Health Platform [tefhealth.eu](https://tefhealth.eu)
-
-## Quickstart
-
-- **Registration:**  
-  Register a TEF-Health account at [https://tef.charite.de/register](https://tef.charite.de/register)
-
-- **Default Role:**  
-  All new users receive the base role **"Applicant"** upon account creation. 
-
-- **[Higher roles](permissions.md):**  
-  can be requested via the TEF-Health Portal [https://tef.charite.de/portal/access-request](https://tef.charite.de/portal/access-request)
-  
-!!! info "Invitation to create account"
-    New users can also be created by invitation. In this case an invitation email is sent to the prospective user. The email prompts them to reset their password. Follow the instructions to complete the password reset and activate the account.
-
----
-
-## Step by step
+This section explains how to obtain a user account on the TEF-Health Platform.
 
 ### Step 1: Access the Registration Portal
-- Open your web browser and navigate to the [https://tef.charite.de/register](https://tef.charite.de/register). TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created. ![Registration Keycloak](img/registration-landing-page.png)
-- Alternatively, browse to [https://tef.charite.de/](https://tef.charite.de/) and click on "**Register**" ![Registration Keycloak](img/registration-landing-page2.png)
+- Open your web browser and navigate to the [https://tef.charite.de/register](https://tef.charite.de/register){ target="_blank" }. TEF-Health Grant Management is performed using Odoo. When you register on the TEF-Health platform, an Odoo user account is automatically created. ![Registration Keycloak](img/registration-landing-page.png)
+- Alternatively, browse to [https://tef.charite.de/](https://tef.charite.de/){ target="_blank" } and click on "**Register**" ![Registration Keycloak](img/registration-landing-page2.png)
 
 ### Step 2: Complete the Registration Form
 You will be asked to provide the following information:  
@@ -54,4 +36,7 @@ After submitting the form, you will receive a verification email. Follow the ins
 
 ![Registration Keycloak 3](img/registration-keycloak-3.png)
 
-- Congratulations, you are now logged into the TEF-Health platform. Please note that users are automatically logged out after 10 minutes of inactivity.
+- Congratulations, you are now logged into the TEF-Health platform. 
+
+!!! warning "Automatic Log-out"
+    For security reasons users are automatically logged out after 10 minutes of inactivity.

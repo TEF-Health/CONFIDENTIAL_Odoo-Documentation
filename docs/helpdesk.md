@@ -7,8 +7,8 @@ Applicants can submit **Support Requests** and interact with **TEF-Health Helpde
 
 ## Accessing the Helpdesk
 
-1. Browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk).
-2. Alternatively, browse to [https://tef.charite.de](https://tef.charite.de) and click on **Helpdesk**. ![Helpdesk Access](img/helpdesk-access.png)
+1. Browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk){ target="_blank" }.
+2. Alternatively, browse to [https://tef.charite.de](https://tef.charite.de){  target="_blank" } and click on **Helpdesk**. ![Helpdesk Access](img/helpdesk-access.png)
 
 ## Submitting tickets
 
@@ -18,7 +18,7 @@ Platform visitors without user account can submit support tickets without loggin
  
 ![Ticket Submission](img/helpdesk-public.png)
 
-1. Browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk).
+1. Browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk){ target="_blank" }.
 2. Enter your 
     - **E-mail**, 
     - **Subject** of the support request, 
@@ -31,9 +31,9 @@ Platform visitors without user account can submit support tickets without loggin
 ### Via Portal Helpdesk
 
 If you are logged-in, you can access the internal portal Helpdesk
-[https://tef.charite.de/platform/helpdesk](https://tef.charite.de/platform/helpdesk).
+[https://tef.charite.de/platform/helpdesk](https://tef.charite.de/platform/helpdesk){ target="_blank" }.
 
-1. Upon logging-in, browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk). You will be redirected to [https://tef.charite.de/portal/helpdesk](https://tef.charite.de/portal/helpdesk). Both URLs can be used to access the Portal Helpdesk. ![Ticket Submission](img/helpdesk-portal-1.png)
+1. Upon logging-in, browse to [https://tef.charite.de/helpdesk](https://tef.charite.de/helpdesk){ target="_blank" }. You will be redirected to [https://tef.charite.de/portal/helpdesk](https://tef.charite.de/portal/helpdesk). Both URLs can be used to access the Portal Helpdesk. ![Ticket Submission](img/helpdesk-portal-1.png)
 2. Click on the button **Submit New Ticket** to create a new Support Requests. You can see your previous Support Requests underneath the button. 
 3. Enter 
     - **Subject** of the support request, 
